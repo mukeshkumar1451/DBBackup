@@ -1,0 +1,4063 @@
+[{
+  "_id": {
+    "$oid": "64eca1192e21565b64c00c61"
+  },
+  "name": "Program Summary Template",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "ee8b3504-f78c-4501-8c58-d4d51164d319",
+      "name": "default",
+      "gridConfig": {
+        "rows": 20,
+        "columns": 2,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "64f07ccf7ee52d2edde4b9df"
+          },
+          "description": "new item",
+          "type": "data-grid",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Improve Release Quality",
+            "colors": "#C46536,#C43667,#63CC98,#B282DD,#DE5076,#C48836,#7F36C4,#573B30,#369AC4,#C44136,#69D791,#C47036,#5B36C4,#365EC4,#C38849,#4E3C25,#36C4A7,#313A57,#C95837,#D06250,#573345,#82DDA3,#C7BC97,#C43668,#4B573F,#36C4C0,#D76973,#366DC4,#36C484,#C44C36,#C49236,#57332C,#2A69E6,#4B505B,#91949C,#D0505B,#A369D7,#4F4E73,#C43644,#364AC4,#C4AB36,#47C99E,#36BDC4,#BD572F,#3D2B57",
+            "hideHeader": null,
+            "header": null,
+            "compact": null,
+            "maxRecords": null,
+            "enablePagination": null
+          },
+          "rows": 2,
+          "cols": 8,
+          "x": 0,
+          "y": 1,
+          "filters": [],
+          "metricName": "TableGrid",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64f07f227ee52d2edde4b9e1"
+          },
+          "type": "data-grid",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Improve Efficiencies",
+            "colors": "#BD572F,#4E3C25,#C4AB36,#C43668,#57332C,#7F36C4,#C47036,#4B573F,#C44136,#C44C36,#C43667,#365EC4,#D06250,#36C4C0,#63CC98,#366DC4,#2A69E6,#36C484,#C46536,#D0505B,#3D2B57,#573345,#47C99E,#D76973,#C49236,#B282DD,#DE5076,#4F4E73,#C43644,#313A57,#C38849,#A369D7,#C7BC97,#573B30,#91949C,#C48836,#69D791,#364AC4,#82DDA3,#C95837,#4B505B,#36BDC4,#369AC4,#5B36C4,#36C4A7",
+            "dateSeries--disabled": true,
+            "hideHeader": null,
+            "header": null,
+            "compact": null,
+            "maxRecords": null,
+            "enablePagination": null
+          },
+          "rows": 2,
+          "cols": 8,
+          "x": 0,
+          "y": 3,
+          "filters": [],
+          "metricName": "TableGrid_3",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64f07f737ee52d2edde4b9e2"
+          },
+          "type": "data-grid",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Improve Upstream Quality",
+            "colors": "#C49236,#57332C,#C43668,#3D2B57,#C43644,#4F4E73,#36BDC4,#DE5076,#C47036,#47C99E,#2A69E6,#C44136,#C7BC97,#82DDA3,#C95837,#5B36C4,#4B505B,#4B573F,#573345,#C43667,#36C484,#C46536,#4E3C25,#366DC4,#365EC4,#36C4C0,#D0505B,#364AC4,#B282DD,#C48836,#D06250,#573B30,#91949C,#7F36C4,#C44C36,#C38849,#BD572F,#69D791,#63CC98,#D76973,#313A57,#369AC4,#36C4A7,#A369D7,#C4AB36",
+            "dateSeries--disabled": true,
+            "hideHeader": null,
+            "header": null,
+            "compact": null,
+            "maxRecords": null,
+            "enablePagination": null,
+            "LabelText": null,
+            "TextStyle": null,
+            "TextBold": null,
+            "TextItalic": null,
+            "FontSize": null,
+            "TextColor": null,
+            "BackgroundColor": null,
+            "PaddingLeft": null,
+            "PaddingTop": null
+          },
+          "rows": 3,
+          "cols": 8,
+          "x": 8,
+          "y": 4,
+          "filters": [],
+          "metricName": "TableGrid_4",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64f084277ee52d2edde4b9e4"
+          },
+          "type": "label",
+          "itemGroup": "datalabel",
+          "options": {
+            "LabelText": "Remarks:",
+            "TextStyle": null,
+            "TextBold": true,
+            "TextItalic": null,
+            "FontSize": 16,
+            "TextColor": null,
+            "BackgroundColor": null,
+            "PaddingLeft": null,
+            "PaddingTop": null,
+            "colors": "#2A69E6,#C4AB36,#4F4E73,#313A57,#C48836,#C46536,#365EC4,#C7BC97,#36C4C0,#A369D7,#DE5076,#573B30,#C49236,#364AC4,#4E3C25,#36BDC4,#D76973,#D0505B,#C44C36,#36C4A7,#4B573F,#369AC4,#C47036,#573345,#69D791,#C43644,#91949C,#B282DD,#D06250,#7F36C4,#BD572F,#366DC4,#C44136,#63CC98,#5B36C4,#C95837,#82DDA3,#C38849,#57332C,#47C99E,#4B505B,#3D2B57,#C43667,#C43668,#36C484",
+            "title": null,
+            "hideHeader": null,
+            "header": null,
+            "compact": null,
+            "maxRecords": null,
+            "enablePagination": null
+          },
+          "rows": 2,
+          "cols": 8,
+          "x": 0,
+          "y": 5
+        },
+        {
+          "_id": {
+            "$oid": "64f0849e7ee52d2edde4b9e5"
+          },
+          "type": "label",
+          "itemGroup": "datalabel",
+          "options": {
+            "LabelText": "Transformation Outcome Project for CE DT",
+            "TextStyle": false,
+            "TextBold": true,
+            "TextItalic": false,
+            "FontSize": 30,
+            "TextColor": null,
+            "BackgroundColor": null,
+            "PaddingLeft": 70,
+            "PaddingTop": 40,
+            "colors": "#5B36C4,#A369D7,#366DC4,#C95837,#2A69E6,#D0505B,#63CC98,#57332C,#C44C36,#D06250,#69D791,#36C4A7,#36C484,#C43667,#C43644,#BD572F,#573B30,#C48836,#36C4C0,#C47036,#364AC4,#365EC4,#369AC4,#313A57,#7F36C4,#C38849,#C44136,#4B573F,#C49236,#91949C,#C46536,#3D2B57,#C7BC97,#DE5076,#B282DD,#C43668,#C4AB36,#47C99E,#4F4E73,#4B505B,#4E3C25,#82DDA3,#36BDC4,#D76973,#573345"
+          },
+          "rows": 1,
+          "cols": 9,
+          "x": 3,
+          "y": 0
+        },
+        {
+          "_id": {
+            "$oid": "64f085137ee52d2edde4b9e6"
+          },
+          "description": "new image item",
+          "type": "image",
+          "itemGroup": "dataimg",
+          "options": {
+            "ImageSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAAB1CAMAAAB3eo3qAAAAllBMVEX///9PAIw4AIFFAIdBAIXGudhJAImchbuWiLY9AIPv7PTAstOlk8DFttZiP5YzAH/8+v3r5fHe1ujh2+r49Pq8rNDOxN1nOJqqmsRNFovY0ONaIJJCDoVBCIWIaK4mAHpcM5NySKCLda+eiry0o8p6WKWQdLNbKZNLHYqYfrhwTJ+Sf7RVLI96XaVvQp9TEI9qTpuDa6oh6H42AAAKrUlEQVR4nO1ca3eCuhItJMQTpPJGoS0+UatS6///cxe0D8WZJAQ993Qt91r9VB1nk0kyT56e7gXLNCDQ3t1+8f+GB9UH1T+NB9UH1T+NB9UH1T+NB9UH1T+NB9UH1T+NB9UH1T+NB9X/NNXI9n3fjtp+7V+gqqkZJCiMe9OX17e3N1r9vabDfJTYtqf49ftR9SI/W+Qf6VGzSrXX/TB3WmjWQJQsDvuxSQn71ZIR7pofvX6gJOF5TE/g9BxuR6peEM83pssJMRqarWZx0n6F/d5nys9ZnkmlZFcuFB5gMHdAjPowEhXF7FE5IRRUrOJL07Kntg5fiLIPF5H2LZS7eahpLtVqcwjuPwqKTSWKVXTdlWWrqmKVpljcEZTOlJYBoEpBgURGNVoUJgG/2mBrThZKZP2cqMiryabvyo/vBlStT1XFqqWdxFI1vBFXlVeTdfsaVqxFNRy6Cqb2C3MosTl/Bl8QKPiy/cJqUI3m+xYrcASjjki1cNJWoEFewvtTDQet9apAN7hqmcpx1AR7te5NdQHfenLV3ATZX1mqJZGt+/elOpfcLwKQESgxZJoSGW+3ru2o2gf442rgS0jkSvvZGevsblTtgmurVcPsXdmwt+3w8MikjevZhmp06MYUsuF+J5G0uA9Vu+xivSe4DW8iWuubbw3e4mhqQXXZdU1r0MvtNe8ok238O1AdtXRoMN3OfQl/LfgkJYSlaRUhia43c3F7qv3u1nvExTE8wrwRxknhxM9Wklj9xWwoiCxSZW9Ylao/6bapfmH++sN2iQgl+5Ed/XDw7CxHowHz+dZUixstarVgg58bIoF3KktHV0tlLxGfin3cmGp8k416Ap1/S3VAqmwCxkHWCl7YnerBpEbVH8jNl3LTrWBymevIVt+e/xD85BqJ+Ow9nHOSR8NtqM4l5kvIerVcJIHvB9ZiOamOTdGn+deyemPov9TBdA1BH5LMsc/rUA3Ftx9/mcUXVuQvDkKy7mm3hi74T/xIXUBCyUzxDEao0guqpUhv4jrB1Y9FSSnY3fy0cM/QR8hGoG3zxGaEpLtZwxH2bBjxAMTk3FnN3nCtGTkgx0I/xR/Q6RAGTyVhEj45swPGzf3ndpRcpTf6YwLBfBcI/sYM15mk+KEQbtAdzo6X4Tv0f3yr1iDfNF13OE9CsITQoZAR7tAjlcD3whfsIcb1dJQsoX8TYbDS45W/uNoUI0EuvQPVBXookYH4ToumiD2woY9RNbhIosVLJ87EUWoHqmiagK1kdYpwhTyjcR3ggAZscJED7/nyYFyfKnwlHBWWu5994MuMj4tjSg12llAXQhX6VGEzM2QHyBeKhgkTMjl8p+b7sE5s0jbteSOq3gRhylYqV3d2bv3MJLPnX6MPEHthb3pFma5UMyx6dpXszNt+3w9VjD21Lm4H2DE8qmUuk1C3/q5NFYueSaGmSpIeP00nh+uKnCAvSvnqUPkH6umUG1DdYlRVE1gDxkxe9q+dR/RcOoHVXt96l48yL2pVd9Olan8iEbHkSv3F6G0aI40RmUL1p242GL7HSaBektakGu4RDVQ8yiMivC6FJlyaz5VyOilnC7V2A12qAWJjLeslCMCoDONbnWusF9zPhcCy74KosgW8tsk56k6la6tLtQc7EOzlFkzrrpN2VGtjnizFx4Qu1Rw2MQoV1XSgU9ojppCsLlU40yX2ydtAL7/MV4KrTpcqnKU7z1t3RKZVtWGkQA8LXarIM3dbN12gSPSKcSTFnrYuVeSZm7ejqsuVpcgm0qWK5P3oDak+hYZOz0x1FsNcdakicdZNqT5FB71mEgo2kvyXV7VyJSyqU/5iBPLZbrxXb3gsnWC/C9LGONc1oIcuVeQ33FaNvkrIZvv29w4DomZdqi/IvXoTb/8SXjjnrVvw6LUvoUt1inhLKik0DbbPmx1rdUQxchXH6lJF8oXiHHwXBPF2yFs0B/OrmqMu1RGyf8idmD7Vae1gUbhjrth7eNWRpksV+Z7hdklfqsCP888dofLlZU1HQjsLgdx3iKdyU0RZ3ymJycWre1VK1qWKBVnkoKyx3yUKivxsvhK2V5xKXWfQpRodEBOaKDsRzuvnotv4WBQfdrg3xRuPUjsP/A9CVdmCPYMxPp72FRJgAgR4zzVveMLaVGPkF9hKUfVTUZ+Y+4Oo/itHhs0MNJM/2lT9neLDxPCTMydkvRmJDu4ohEoAv//ewFzZUI2qPHNdYIZDle6b/kUpjrtFDPMJ4+1hkgstJcM0UaJK5Jm/BdaVo9QwZDf72AhfHZyLMzOys1GRvhLGiKS714HPpkZLAUJVoRkxQuMNlZMJSn4y8vrx9VU7sZzCcH8cQfHcgQXrYSpRNahcW7RsrhDfxFgWo6jbuHqHzxd+7hBJcq4BfG4oUh3LC2oJ3n60l3gHFra7qof0YnLSdHPZXrgnQriCz9SoUnkzYoTXyxgVjgmj25ylPhweivvTM3BV2UqNqjGQX4+iepn5D3oORw7aZki23tM7KHUncsKeYWGNgDLDWnKI/GzxUpyqQQfIhg2muC/H+tjDJwW+o5Dxo2aaIESfMAW6BKPFxSUEtnj+wP24bmn0soNgxJV9emjnLS3RLRGoFVV8/Id504Wxq8j4oknWQ/yULxC+GV28LSCIZ0yU7DwOFtkbWCVaIjbsYV0iDX/TR/JhR1Un81+ykXWYMNLo8rYkETIj6aB4j60kSax5PtiJu7yZcVw4tHeGgIFQMET8wrKxUoJj1KiL0UbRcxynV+zd40xLc0wB63M5/0lq1s37pjxxQE+7O0MaECv3sYybZO35DnsyzTtEOlFIKOf0Z1CpSdXWHNAFf6n84iG4xNgut74nbbzItvI1qkB65WHFrSoFV3M2yEiMDn6qhXijplE3pLn7zWy73S6LF9fFLYVd5y5RcwFxPSg216qWATB/DU42UMgIpfVknOgz42uHLfpso881VbSNuSXImc/iI+0HbcRBCeleGxMEJh09ven3Bi7bpWUnuxzXO7WCLdoZTUDzqwHew68OeulbvXccQKMzgOnTk9gPuAQ4gJ0IhlAU4TazNN0mnckAZPoUdKVace24rtdlbrvZBt4GbI0k5jzBvEwTyMsSrG42bDrX/m200l9XvFE3xJJ/gBDkFRiab+Y4wQTTk57uaCzcHvAFZC4AAPq2D1sQmkk0w6Yvo7av5fmS9yac5pypXjj4O1xszUOTUDw540gqUKC8gTjZE6l2L4peQmSJ4xYYdCNK7Sebln4no6Use6L6wg7hq6X8bdtVIPu5OGdsz9u8RcugLJbnoBU3huSFYdZHKys2N/K6Y1i8qZIl6VKtXhSvVWJPSUHGi1eqYR1joo7WMyQzQ8XkeLpVLnMF0jY3vpH36kSLkitsfMI/FWztBC+bM0G4dhTnklb1PC8bjgUBoEnVXsdnJ0tX3GfE+DhXf4/hEUk+SOE3mdRjN4O8fQU+yCcGILAStyqVV6G243KwBzWrxycmhbDGiCBKRtuNYZq8ClTr7H+lE+WmyTazxXVmUgl+f14J5EeB3/LYdBu3ejFVLccazT7Yl2anmadKEl/lTl+7D9Gz65cuvOflx3A1/Cjz3sIK4WFrVdh+9jxa5tNK3rRcOv3M1xMX2WFmjd7zotZsmi+dOAmlI7X/A0kJvfpfuOfXAAAAAElFTkSuQmCC",
+            "colors": "#366DC4,#C38849,#313A57,#3D2B57,#82DDA3,#C95837,#573345,#C43667,#57332C,#63CC98,#C7BC97,#36C4C0,#36BDC4,#C44C36,#365EC4,#BD572F,#C4AB36,#DE5076,#69D791,#C49236,#C47036,#C48836,#C44136,#7F36C4,#47C99E,#36C484,#36C4A7,#C43644,#4E3C25,#4F4E73,#D0505B,#D76973,#C46536,#4B505B,#573B30,#4B573F,#A369D7,#364AC4,#C43668,#369AC4,#2A69E6,#B282DD,#D06250,#91949C,#5B36C4"
+          },
+          "rows": 1,
+          "cols": 1,
+          "x": 15,
+          "y": 0
+        },
+        {
+          "_id": {
+            "$oid": "64f07df67ee52d2edde4b9e0"
+          },
+          "type": "data-grid",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Faster Time to Market",
+            "colors": "#47C99E,#69D791,#4B573F,#C38849,#2A69E6,#C49236,#C43667,#BD572F,#4F4E73,#82DDA3,#B282DD,#573345,#C44136,#C95837,#D76973,#C43668,#36BDC4,#C48836,#91949C,#36C484,#5B36C4,#A369D7,#36C4C0,#366DC4,#313A57,#C44C36,#D0505B,#3D2B57,#C43644,#57332C,#364AC4,#C47036,#D06250,#4B505B,#365EC4,#C4AB36,#63CC98,#DE5076,#C7BC97,#C46536,#4E3C25,#369AC4,#573B30,#36C4A7,#7F36C4",
+            "hideHeader": null,
+            "header": null,
+            "compact": null,
+            "maxRecords": null,
+            "enablePagination": null
+          },
+          "rows": 3,
+          "cols": 8,
+          "x": 8,
+          "y": 1,
+          "filters": [],
+          "metricName": "TableGrid_2",
+          "metricCategory": "derived"
+        }
+      ]
+    }
+  ],
+  "category": "ORG",
+  "projectId": "64acd2042d3c2c083255aa92",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1693482078895"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1693492776628"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboard"
+},{
+  "_id": {
+    "$oid": "6500362a2a75891ee05921ce"
+  },
+  "name": "Defect Dashboard Template P1",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "a14a5249-0cf7-4ba7-ad15-24b878643489",
+      "name": "Dashboard",
+      "gridConfig": {
+        "rows": 12,
+        "columns": 8,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "64e5e93a4315461cf100a43e"
+          },
+          "description": "new item",
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect By  Status",
+            "colors": "#573B30,#366DC4,#47C99E,#C46536,#69D791,#36BDC4,#C95837,#4B573F,#313A57,#4B505B,#5B36C4,#C43644,#C44136,#C49236,#82DDA3,#D0505B,#4E3C25,#2A69E6,#3D2B57,#36C4A7,#C7BC97,#7F36C4,#36C4C0,#B282DD,#63CC98,#C44C36,#C47036,#36C484,#DE5076,#573345,#91949C,#365EC4,#A369D7,#C38849,#D76973,#C43668,#C4AB36,#4F4E73,#364AC4,#D06250,#369AC4,#C43667,#C48836,#BD572F,#57332C",
+            "dateSeries--disabled": true,
+            "gradient": null,
+            "animations": null,
+            "tooltipDisabled": null,
+            "label": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "timeline": null,
+            "rotateXAxisTicks": null
+          },
+          "rows": 2,
+          "cols": 5,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "RFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "label",
+                  "op": "in",
+                  "value": "R16.4-CMS,CMS-REL16.3,CMS_MA_Dev_Upgrade,R16.5-CMS,R16.5-CMS,R16.7-CMS,R17.9-CMS,R17.3-CMS,R17.8-CMS,R17.6-CMS,R17.7-CMS,R17.0-CMS,R18.0-CMS,CMS-AT-RTDM,CMS-RTDM-DR",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64e5f0f74315461cf100a440"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Defect By Priority",
+            "colors": "#C7BC97,#C49236,#313A57,#C43668,#C44136,#369AC4,#2A69E6,#C43644,#C46536,#D06250,#4F4E73,#366DC4,#573B30,#91949C,#5B36C4,#C38849,#365EC4,#C4AB36,#69D791,#BD572F,#C48836,#4B573F,#D76973,#A369D7,#4E3C25,#3D2B57,#63CC98,#B282DD,#36C484,#4B505B,#C43667,#573345,#47C99E,#C47036,#36C4A7,#C44C36,#7F36C4,#DE5076,#82DDA3,#D0505B,#36C4C0,#36BDC4,#C95837,#57332C,#364AC4",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "rFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "label",
+                  "op": "in",
+                  "value": "R16.4-CMS,CMS-REL16.3,CMS_MA_Dev_Upgrade,R16.5-CMS,R16.5-CMS,R16.7-CMS,R17.9-CMS,R17.3-CMS,R17.8-CMS,R17.6-CMS,R17.7-CMS,R17.0-CMS,R18.0-CMS,CMS-AT-RTDM,CMS-RTDM-DR",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64e5f2d84315461cf100a441"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Closed Defect By Priority",
+            "colors": "#3D2B57,#82DDA3,#5B36C4,#36C4A7,#36C4C0,#4F4E73,#4B573F,#4B505B,#313A57,#2A69E6,#D0505B,#C43644,#57332C,#C49236,#C44C36,#BD572F,#369AC4,#69D791,#C48836,#36C484,#D06250,#573B30,#C4AB36,#C44136,#4E3C25,#A369D7,#364AC4,#C43668,#DE5076,#7F36C4,#36BDC4,#47C99E,#C43667,#C46536,#573345,#91949C,#365EC4,#C7BC97,#C38849,#C95837,#366DC4,#B282DD,#D76973,#63CC98,#C47036",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "timeline": null,
+            "rotateXAxisTicks": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "Done",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "Label",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "label",
+                  "op": "in",
+                  "value": "R16.4-CMS,CMS-REL16.3,CMS_MA_Dev_Upgrade,R16.5-CMS,R16.5-CMS,R16.7-CMS,R17.9-CMS,R17.3-CMS,R17.8-CMS,R17.6-CMS,R17.7-CMS,R17.0-CMS,R18.0-CMS,CMS-AT-RTDM,CMS-RTDM-DR",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64f5c75d7ee52d2edde4ba0a"
+          },
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Outstanding open Defect Rate",
+            "colors": "#82DDA3,#2A69E6,#47C99E,#C49236,#57332C,#C43644,#C46536,#B282DD,#C48836,#C95837,#365EC4,#DE5076,#C44C36,#63CC98,#C43668,#7F36C4,#A369D7,#BD572F,#4F4E73,#4B573F,#5B36C4,#573B30,#D0505B,#C4AB36,#D06250,#3D2B57,#4E3C25,#4B505B,#C47036,#91949C,#C43667,#364AC4,#36BDC4,#C7BC97,#366DC4,#369AC4,#C38849,#313A57,#573345,#D76973,#36C4A7,#36C484,#69D791,#36C4C0,#C44136",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_CMS_ReOpened_Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64f5c79f7ee52d2edde4ba0b"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Rejection Rate",
+            "colors": "#63CC98,#C48836,#C44136,#C44C36,#364AC4,#369AC4,#366DC4,#BD572F,#A369D7,#573B30,#D06250,#4E3C25,#D0505B,#C43667,#C43644,#DE5076,#7F36C4,#57332C,#D76973,#2A69E6,#4B573F,#C47036,#C95837,#C7BC97,#365EC4,#4F4E73,#C49236,#C38849,#91949C,#C4AB36,#36C484,#3D2B57,#4B505B,#5B36C4,#47C99E,#313A57,#36C4C0,#B282DD,#69D791,#C43668,#C46536,#36C4A7,#573345,#82DDA3,#36BDC4",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 2,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_CMS_RejectionRate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64f5d14a7ee52d2edde4ba0f"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect Ageing",
+            "colors": "#C44C36,#DE5076,#365EC4,#C44136,#4B505B,#C43667,#C46536,#4B573F,#36C4C0,#364AC4,#5B36C4,#366DC4,#C4AB36,#3D2B57,#BD572F,#D0505B,#573345,#36C4A7,#573B30,#57332C,#91949C,#C7BC97,#C49236,#B282DD,#D06250,#C38849,#C43644,#82DDA3,#C48836,#47C99E,#69D791,#A369D7,#C95837,#C47036,#2A69E6,#63CC98,#36BDC4,#7F36C4,#36C484,#4E3C25,#D76973,#4F4E73,#313A57,#C43668,#369AC4",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "animations": true,
+            "showGridLines": true,
+            "showDataLabel": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 4,
+          "filters": [],
+          "metricName": "CMS_Defect_Ageing",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64f5fd897ee52d2edde4ba10"
+          },
+          "description": "new item",
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Vs Closed Status",
+            "colors": "#36BDC4,#D06250,#4E3C25,#D76973,#C4AB36,#365EC4,#C7BC97,#C47036,#366DC4,#7F36C4,#5B36C4,#C43644,#D0505B,#369AC4,#313A57,#4F4E73,#69D791,#36C4A7,#573B30,#C46536,#C95837,#C44C36,#C48836,#4B573F,#DE5076,#C49236,#364AC4,#C44136,#B282DD,#C43667,#C43668,#91949C,#63CC98,#3D2B57,#C38849,#2A69E6,#47C99E,#BD572F,#57332C,#4B505B,#82DDA3,#A369D7,#36C484,#573345,#36C4C0",
+            "gradient": null,
+            "animations": null,
+            "tooltipDisabled": null,
+            "label": null
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 5,
+          "y": 0,
+          "filters": [],
+          "metricName": "JIRA_CMS_openClosed",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64f5fe967ee52d2edde4ba11"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Defect By Status",
+            "colors": "#36C4A7,#C46536,#C4AB36,#C43644,#DE5076,#2A69E6,#364AC4,#82DDA3,#C95837,#BD572F,#57332C,#C43668,#365EC4,#4F4E73,#47C99E,#B282DD,#36BDC4,#5B36C4,#366DC4,#4B505B,#573B30,#63CC98,#69D791,#573345,#36C484,#C43667,#36C4C0,#A369D7,#91949C,#4E3C25,#D76973,#D06250,#313A57,#C48836,#C44136,#C49236,#C44C36,#C38849,#7F36C4,#3D2B57,#4B573F,#D0505B,#C47036,#369AC4,#C7BC97",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showGridLines": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 6,
+          "filters": [
+            {
+              "name": "DefectFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "statusfilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "Labelfilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "label",
+                  "op": "in",
+                  "value": "R16.4-CMS,CMS-REL16.3,CMS_MA_Dev_Upgrade,R16.5-CMS;SMS-Revamp,R16.5-CMS,R16.7-CMS,R17.9-CMS,R17.3-CMS,R17.8-CMS,R17.6-CMS,R17.7-CMS,R17.0-CMS,R18.0-CMS,CMS-AT-RTDM,CMS-RTDM-DR",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64f5ffa17ee52d2edde4ba12"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Closed Defect By Status",
+            "colors": "#69D791,#C44C36,#4B573F,#365EC4,#D06250,#C46536,#A369D7,#7F36C4,#C47036,#C49236,#4B505B,#313A57,#C38849,#36C4A7,#5B36C4,#366DC4,#C43644,#63CC98,#36BDC4,#4F4E73,#3D2B57,#573345,#D76973,#573B30,#C44136,#DE5076,#C43668,#36C4C0,#D0505B,#C7BC97,#C4AB36,#47C99E,#B282DD,#C48836,#364AC4,#4E3C25,#BD572F,#91949C,#369AC4,#57332C,#2A69E6,#82DDA3,#C43667,#36C484,#C95837",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showGridLines": true,
+            "showDataLabel": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 6,
+          "filters": [
+            {
+              "name": "LabelFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "label",
+                  "op": "in",
+                  "value": "R16.4-CMS,CMS-REL16.3,CMS_MA_Dev_Upgrade,R16.5-CMS,R16.5-CMS,R16.7-CMS,R17.9-CMS,R17.3-CMS,R17.8-CMS,R17.6-CMS,R17.7-CMS,R17.0-CMS,R18.0-CMS,CMS-AT-RTDM,CMS-RTDM-DR",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DefectFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "Statusfilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "Done",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64e733a84315461cf100a454"
+          },
+          "type": "line-chart-series",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect Trend",
+            "colors": "#573B30,#366DC4,#47C99E,#C46536,#69D791,#36BDC4,#C95837,#4B573F,#313A57,#4B505B,#5B36C4,#C43644,#C44136,#C49236,#82DDA3,#D0505B,#4E3C25,#2A69E6,#3D2B57,#36C4A7,#C7BC97,#7F36C4,#36C4C0,#B282DD,#63CC98,#C44C36,#C47036,#36C484,#DE5076,#573345,#91949C,#365EC4,#A369D7,#C38849,#D76973,#C43668,#C4AB36,#4F4E73,#364AC4,#D06250,#369AC4,#C43667,#C48836,#BD572F,#57332C",
+            "dateSeries": true,
+            "cumulative": true,
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showGridLines": true,
+            "timeline": true,
+            "rotateXAxisTicks": true,
+            "dateFormat": "MMM YYYY",
+            "dateGroup": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null
+          },
+          "rows": 3,
+          "cols": 8,
+          "x": 0,
+          "y": 8,
+          "filters": [
+            {
+              "name": "PrjFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "projectKey",
+                  "op": "equals",
+                  "value": "CMS",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DefectFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1694512682252"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1694512682252"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "6501be0b92694f7d37c20ebe"
+  },
+  "name": "Story Dashboard Template",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "8a3af706-1189-46e1-9cc6-21a67ba9d926",
+      "name": "Story Page",
+      "gridConfig": {
+        "rows": 12,
+        "columns": 12,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "6501930192694f7d37c20eae"
+          },
+          "description": "new item",
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Epics & Stories",
+            "colors": "#2A69E6,#00aa00,#313A57,#C44C36,#C4AB36,#91949C,#C7BC97,#4E3C25,#5B36C4,#D76973,#C95837,#C43667,#366DC4,#36C484,#C46536,#82DDA3,#36BDC4,#C43668,#BD572F,#47C99E,#364AC4,#365EC4,#3D2B57,#36C4C0,#4B505B,#4F4E73,#4B573F,#A369D7,#D0505B,#63CC98,#C49236,#C48836,#36C4A7,#369AC4,#C38849,#C47036,#57332C,#69D791,#B282DD,#573B30,#DE5076,#7F36C4",
+            "animations": true,
+            "gradient": null,
+            "tooltipDisabled": null,
+            "label": null
+          },
+          "rows": 3,
+          "cols": 5,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "BugFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "ne",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "ne",
+                  "value": "Test",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "650193e892694f7d37c20eb0"
+          },
+          "description": "new item",
+          "type": "pie-chart-grid",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Story By Status",
+            "colors": "#573B30,#5B36C4,#C43668,#2A69E6,#36C4A7,#D0505B,#47C99E,#69D791,#D76973,#4B573F,#D06250,#57332C,#36C4C0,#364AC4,#A369D7,#C46536,#C4AB36,#366DC4,#C38849,#36C484,#C44C36,#82DDA3,#B282DD,#C48836,#3D2B57,#C43667,#36BDC4,#313A57,#4F4E73,#C7BC97,#BD572F,#91949C,#7F36C4,#C44136,#4B505B,#63CC98,#365EC4,#369AC4,#4E3C25,#C47036,#DE5076,#C43644,#C49236,#C95837,#573345",
+            "animations": true,
+            "gradient": null,
+            "tooltipDisabled": null,
+            "label": null,
+            "minWidth": null
+          },
+          "rows": 3,
+          "cols": 7,
+          "x": 5,
+          "y": 0,
+          "filters": [
+            {
+              "name": "StoryFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Story",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6501947592694f7d37c20eb1"
+          },
+          "description": "new item",
+          "type": "pie-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Story Creator Vs. Status",
+            "colors": "#C49236,#C95837,#36C4C0,#91949C,#364AC4,#573345,#63CC98,#C47036,#2A69E6,#36C4A7,#36BDC4,#C4AB36,#7F36C4,#57332C,#366DC4,#82DDA3,#C44136,#573B30,#4B573F,#365EC4,#DE5076,#BD572F,#3D2B57,#C46536,#C43644,#C7BC97,#B282DD,#47C99E,#D76973,#313A57,#C38849,#4E3C25,#369AC4,#C48836,#69D791,#D0505B,#A369D7,#D06250,#5B36C4,#4F4E73,#4B505B,#C43667,#C43668,#36C484,#C44C36",
+            "legend": true,
+            "legendPositionDown": true,
+            "showLabels": true,
+            "doughnut": true,
+            "gradient": null,
+            "animations": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimLabels": null,
+            "maxLabelLength": null,
+            "explodeSlices": null
+          },
+          "rows": 3,
+          "cols": 5,
+          "x": 0,
+          "y": 3,
+          "filters": [
+            {
+              "name": "StoryFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Story",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6501953192694f7d37c20eb2"
+          },
+          "description": "new item",
+          "type": "bar-chart-vertical",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Story By Priority",
+            "colors": "#364AC4,#5B36C4,#C7BC97,#36C4A7,#C43667,#C38849,#365EC4,#C47036,#69D791,#47C99E,#366DC4,#313A57,#36C4C0,#DE5076,#A369D7,#7F36C4,#C44C36,#573345,#C4AB36,#2A69E6,#369AC4,#4F4E73,#4E3C25,#63CC98,#C49236,#4B505B,#57332C,#4B573F,#C95837,#C43644,#BD572F,#91949C,#82DDA3,#C48836,#B282DD,#36BDC4,#C46536,#C44136,#573B30,#C43668,#D06250,#3D2B57,#D76973,#D0505B,#36C484",
+            "xAxis": true,
+            "yAxis": true,
+            "legendPositionDown": false,
+            "showXAxisLabel": true,
+            "showYAxisLabel": true,
+            "xAxisLabel": "Priority",
+            "yAxisLabel": "Story Count",
+            "roundDomains": true,
+            "animations": true,
+            "showGridLines": true,
+            "noBarWhenZero": true,
+            "showDataLabel": true,
+            "roundEdges": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "legend": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "barPadding": null
+          },
+          "rows": 3,
+          "cols": 4,
+          "x": 5,
+          "y": 3,
+          "filters": [
+            {
+              "name": "StoryFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Story",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6501bd8892694f7d37c20ebd"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Story Completion Rate",
+            "colors": "#00aa00",
+            "animations": true,
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 3,
+          "x": 9,
+          "y": 3,
+          "filters": [],
+          "metricName": "Story Completion Rate",
+          "metricCategory": "derived"
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1694613003679"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1694613003679"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "6501c81292694f7d37c20ec8"
+  },
+  "name": "Design Dashboard Template",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "18ea4e00-569c-46c4-960e-8d895c65bb67",
+      "name": "Design Page",
+      "gridConfig": {
+        "rows": 12,
+        "columns": 12,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "6501c16d92694f7d37c20ec0"
+          },
+          "description": "new item",
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Design By Status",
+            "colors": "#00aa00,#C43644,#4F4E73,#5B36C4,#366DC4,#4B573F,#D06250,#2A69E6,#BD572F,#C95837,#36BDC4,#7F36C4,#B282DD,#D76973,#C47036,#82DDA3,#C4AB36,#3D2B57,#36C4A7,#D0505B,#4B505B,#C43667,#DE5076,#57332C,#4E3C25,#91949C,#313A57,#C48836,#36C484,#36C4C0,#C43668,#365EC4,#573345,#C38849,#C44C36,#C44136,#369AC4,#C7BC97,#573B30,#A369D7,#C49236,#63CC98,#69D791,#364AC4,#47C99E",
+            "animations": true,
+            "dateSeries--disabled": true,
+            "gradient": null,
+            "tooltipDisabled": null,
+            "label": null
+          },
+          "rows": 3,
+          "cols": 6,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Test",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6501c20e92694f7d37c20ec1"
+          },
+          "description": "new item",
+          "type": "pie-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Designer Vs. Tests",
+            "colors": "#57332C,#C47036,#BD572F,#C46536,#69D791,#C38849,#36C4C0,#365EC4,#A369D7,#366DC4,#36C484,#36BDC4,#4F4E73,#4B573F,#DE5076,#B282DD,#D76973,#7F36C4,#573B30,#364AC4,#4E3C25,#5B36C4,#C4AB36,#C43644,#D06250,#C43668,#47C99E,#C44C36,#91949C,#573345,#4B505B,#63CC98,#C7BC97,#2A69E6,#82DDA3,#313A57,#C95837,#C44136,#3D2B57,#C43667,#C49236,#36C4A7,#D0505B,#C48836,#369AC4",
+            "legend": true,
+            "legendPositionDown": true,
+            "animations": true,
+            "showLabels": true,
+            "doughnut": true,
+            "gradient": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimLabels": null,
+            "maxLabelLength": null,
+            "explodeSlices": null
+          },
+          "rows": 3,
+          "cols": 6,
+          "x": 6,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Test",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6501c2c892694f7d37c20ec2"
+          },
+          "description": "new item",
+          "type": "bar-chart-vertical",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Test By Priority",
+            "colors": "#4E3C25,#C95837,#47C99E,#5B36C4,#C46536,#3D2B57,#82DDA3,#36C4A7,#36C484,#C48836,#7F36C4,#369AC4,#D76973,#69D791,#C43644,#364AC4,#C7BC97,#63CC98,#C43667,#C44C36,#C44136,#313A57,#4B573F,#D06250,#C43668,#4B505B,#36BDC4,#BD572F,#573B30,#366DC4,#B282DD,#C4AB36,#4F4E73,#A369D7,#D0505B,#365EC4,#C47036,#91949C,#2A69E6,#DE5076",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showXAxisLabel": true,
+            "showYAxisLabel": true,
+            "xAxisLabel": "Priority",
+            "yAxisLabel": "Test Count",
+            "animations": true,
+            "showGridLines": true,
+            "showDataLabel": true,
+            "roundEdges": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null
+          },
+          "rows": 3,
+          "cols": 6,
+          "x": 0,
+          "y": 3,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Test",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6501c63d92694f7d37c20ec6"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Test Design Coverage",
+            "colors": "#369AC4",
+            "animations": true,
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 3,
+          "x": 6,
+          "y": 3,
+          "filters": [],
+          "metricName": "Test Design Coverage",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "6501c67c92694f7d37c20ec7"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Test Automation Coverage",
+            "colors": "#36C4A7",
+            "animations": true,
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 3,
+          "x": 9,
+          "y": 3,
+          "filters": [],
+          "metricName": "Test Automation Coverage",
+          "metricCategory": "derived"
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1694615570485"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1694615570485"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "6509305492694f7d37c20eda"
+  },
+  "name": "Defect Dashboard Template",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "fc3bfb14-56fe-4d15-b079-648ab2b77c76",
+      "name": "Defect Page",
+      "gridConfig": {
+        "rows": 16,
+        "columns": 16,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "65091ca292694f7d37c20eca"
+          },
+          "description": "new item",
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defects By Status",
+            "colors": "#C4AB36,#36BDC4,#008800,#00aa00,#C38849,#C47036,#C43644,#C44C36,#C43667,#C44136,#DE5076,#573B30,#365EC4,#63CC98,#366DC4,#2A69E6,#C46536,#4E3C25,#4F4E73,#D76973,#C7BC97,#4B573F,#C48836,#313A57,#A369D7,#BD572F,#47C99E,#3D2B57,#C49236,#D06250,#B282DD,#69D791,#573345,#5B36C4,#C95837,#36C4C0,#4B505B,#82DDA3,#D0505B,#36C4A7,#7F36C4,#369AC4,#57332C,#36C484,#C43668",
+            "animations": true,
+            "dateSeries--disabled": true,
+            "gradient": null,
+            "tooltipDisabled": null,
+            "label": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "timeline": null,
+            "rotateXAxisTicks": null
+          },
+          "rows": 3,
+          "cols": 16,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "65091d8992694f7d37c20ecb"
+          },
+          "type": "line-chart-series",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defects Trend",
+            "colors": "#C4AB36,#36BDC4,#008800,#00aa00,#C38849,#C47036,#C43644,#C44C36,#C43667,#C44136,#C43667,#63CC98,#BD572F,#D76973,#57332C,#364AC4,#C49236,#313A57,#3D2B57,#C44136,#D0505B,#4F4E73,#36C4C0,#91949C,#366DC4,#82DDA3,#4E3C25,#DE5076,#573B30,#C95837,#7F36C4,#365EC4,#369AC4,#573345,#C38849,#C48836,#2A69E6,#69D791,#A369D7,#B282DD,#36C484,#C46536,#C47036,#4B573F,#36C4A7,#5B36C4,#C43644,#C4AB36,#C7BC97,#C43668,#4B505B,#C44C36,#47C99E,#36BDC4,#D06250",
+            "dateSeries": true,
+            "dateFormat": "DD-MMM-YYYY",
+            "cumulative": true,
+            "xAxis": true,
+            "yAxis": true,
+            "legendPositionDown": true,
+            "showXAxisLabel": true,
+            "showYAxisLabel": true,
+            "xAxisLabel": "Defect Detected Date",
+            "yAxisLabel": "Defects Count",
+            "autoScale": true,
+            "animations": true,
+            "showGridLines": true,
+            "timeline": true,
+            "dateGroup": null,
+            "gradient": null,
+            "legend": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "label": null
+          },
+          "rows": 4,
+          "cols": 16,
+          "x": 0,
+          "y": 6,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "65091f5a92694f7d37c20ece"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect Rejection Rate",
+            "colors": "#DE5076,#82DDA3,#57332C,#7F36C4,#63CC98,#D76973,#573345,#36C4C0,#C38849,#47C99E,#C47036,#4B505B,#BD572F,#A369D7,#C4AB36,#C46536,#365EC4,#4B573F,#313A57,#D06250,#C95837,#364AC4,#C48836,#5B36C4,#36C4A7,#36BDC4,#C43644,#69D791,#C44C36,#D0505B,#91949C,#C44136,#C43668,#369AC4,#36C484,#366DC4,#C49236,#C7BC97,#4E3C25,#3D2B57,#B282DD,#573B30,#2A69E6,#C43667,#4F4E73",
+            "animations": true,
+            "percentage": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 4,
+          "x": 0,
+          "y": 3,
+          "filters": [],
+          "metricName": "Defect Rejection Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "65091f9392694f7d37c20ecf"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect Reopened Rate",
+            "colors": "#C7BC97,#C46536,#C47036,#D76973,#C95837,#4B573F,#C48836,#82DDA3,#36C4A7,#C43668,#B282DD,#573B30,#2A69E6,#36C4C0,#C49236,#7F36C4,#C38849,#C4AB36,#4E3C25,#47C99E,#369AC4,#DE5076,#36BDC4,#365EC4,#4F4E73,#573345,#A369D7,#36C484,#BD572F,#4B505B,#3D2B57,#366DC4,#63CC98,#313A57,#D06250,#69D791,#364AC4,#91949C,#5B36C4,#C44136,#C43667,#57332C,#C43644,#C44C36,#D0505B",
+            "animations": true,
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 4,
+          "x": 4,
+          "y": 3,
+          "filters": [],
+          "metricName": "Defect ReOpened Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "6509216692694f7d37c20ed0"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect Density",
+            "colors": "#36C4A7,#364AC4,#4B505B,#C4AB36,#D76973,#365EC4,#4F4E73,#C47036,#36BDC4,#57332C,#BD572F,#C49236,#DE5076,#C43668,#91949C,#B282DD,#36C4C0,#82DDA3,#573345,#D0505B,#369AC4,#36C484,#C46536,#3D2B57,#47C99E,#63CC98,#5B36C4,#4E3C25,#C48836,#D06250,#C38849,#C95837,#C7BC97,#313A57,#C43644,#C44136,#2A69E6,#7F36C4,#69D791,#573B30,#4B573F,#C44C36,#A369D7,#366DC4,#C43667",
+            "animations": true,
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 4,
+          "x": 8,
+          "y": 3,
+          "filters": [],
+          "metricName": "Jira Defect Density",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "650921ec92694f7d37c20ed1"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect Leakage",
+            "colors": "#2A69E6,#C95837,#36BDC4,#369AC4,#C43667,#C7BC97,#C4AB36,#C43644,#5B36C4,#36C484,#C44136,#C44C36,#7F36C4,#B282DD,#D0505B,#366DC4,#4F4E73,#364AC4,#69D791,#C46536,#C49236,#36C4A7,#365EC4,#C43668,#4B573F,#A369D7,#63CC98,#573B30,#4B505B,#D76973,#DE5076,#D06250,#47C99E,#C38849,#91949C,#C47036,#82DDA3,#3D2B57,#57332C,#36C4C0,#573345,#BD572F,#313A57,#C48836,#4E3C25",
+            "animations": true,
+            "percentage": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 4,
+          "x": 12,
+          "y": 3,
+          "filters": [],
+          "metricName": "Defect Leakage",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "650922b392694f7d37c20ed2"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect By Priority",
+            "colors": "#3D2B57,#4E3C25,#C46536,#369AC4,#573345,#57332C,#47C99E,#4B505B,#C43668,#366DC4,#C43667,#C44C36,#D06250,#69D791,#C49236,#365EC4,#36C484,#C48836,#4B573F,#C4AB36,#36BDC4,#4F4E73,#91949C,#36C4C0,#C43644,#B282DD,#C47036,#DE5076,#C38849,#36C4A7,#63CC98,#573B30,#C95837,#364AC4,#BD572F,#82DDA3,#D0505B,#7F36C4,#2A69E6,#D76973,#C7BC97,#313A57,#C44136,#A369D7,#5B36C4",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null
+          },
+          "rows": 4,
+          "cols": 9,
+          "x": 0,
+          "y": 10,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6509245e92694f7d37c20ed4"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Defect By Environments",
+            "colors": "#a0a0a0,#C38849,#D76973,#573345,#365EC4,#B282DD,#C4AB36,#4E3C25,#82DDA3,#C44C36,#63CC98,#C43644,#BD572F,#4B573F,#DE5076,#C47036,#91949C,#D0505B,#4F4E73,#C49236,#A369D7,#313A57,#C48836,#D06250,#573B30,#C43667,#C43668,#36C484,#36C4A7,#C46536,#36C4C0,#4B505B,#C44136,#C95837",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showXAxisLabel": true,
+            "showYAxisLabel": true,
+            "xAxisLabel": "Components",
+            "yAxisLabel": "Defect Count",
+            "animations": true,
+            "showGridLines": true,
+            "noBarWhenZero": true,
+            "showDataLabel": true
+          },
+          "rows": 4,
+          "cols": 7,
+          "x": 9,
+          "y": 10,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "issueTypeName",
+                  "op": "equals",
+                  "value": "Bug",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "ne",
+                  "value": "Done",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1695101012575"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1695101012575"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "6509600f92694f7d37c20eeb"
+  },
+  "name": "Execution Dashboard Template",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "65674261-59f4-4201-8279-8695112157aa",
+      "name": "Execution Page",
+      "gridConfig": {
+        "rows": 16,
+        "columns": 16,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "650956de92694f7d37c20edf"
+          },
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Execution Status",
+            "colors": "#00cc00,#2A69E6,#aa00aa,#cc0000,#c0c0c0,#e0e0e0,#C7BC97,#C4AB36,#369AC4,#3D2B57,#36C4C0,#36C484,#5B36C4,#C48836,#573345,#A369D7,#D0505B,#B282DD,#C49236,#C44C36,#4B505B,#C46536,#573B30,#4E3C25,#313A57,#365EC4,#DE5076,#69D791,#C43644,#36BDC4,#91949C,#C43667,#BD572F,#82DDA3,#C47036,#C95837,#36C4A7,#57332C,#4F4E73,#4B573F,#D76973,#C44136,#63CC98,#364AC4,#7F36C4",
+            "animations": true,
+            "dateSeries--disabled": true,
+            "gradient": null,
+            "tooltipDisabled": null,
+            "label": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "legendTitle": null,
+            "showLabels": null,
+            "trimLabels": null,
+            "maxLabelLength": null,
+            "doughnut": null,
+            "explodeSlices": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "xAxis": null,
+            "yAxis": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "timeline": null,
+            "rotateXAxisTicks": null
+          },
+          "rows": 4,
+          "cols": 12,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6509584492694f7d37c20ee1"
+          },
+          "type": "pie-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Pass Vs. Fail",
+            "colors": "#00cc00,#cc0000,#C4AB36,#C44136,#D76973,#3D2B57,#69D791,#C44C36,#C47036,#BD572F,#573B30,#365EC4,#C95837,#D0505B,#B282DD,#C43644,#C49236,#C43668,#7F36C4,#4B505B,#57332C,#36BDC4,#63CC98,#4B573F,#366DC4,#82DDA3,#36C4C0,#A369D7,#313A57,#C46536,#36C484,#C48836,#D06250,#573345,#4E3C25,#36C4A7,#DE5076,#369AC4,#4F4E73,#47C99E,#C43667,#C38849,#2A69E6,#91949C,#C7BC97",
+            "legend": false,
+            "legendPositionDown": true,
+            "animations": true,
+            "showLabels": true,
+            "doughnut": true,
+            "explodeSlices": true,
+            "gradient": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimLabels": null,
+            "maxLabelLength": null,
+            "label": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "xAxis": null,
+            "yAxis": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "timeline": null,
+            "rotateXAxisTicks": null
+          },
+          "rows": 4,
+          "cols": 4,
+          "x": 12,
+          "y": 0,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "myFilter",
+              "logicalOperator": "OR",
+              "configs": [
+                {
+                  "field": "testCaseStatus",
+                  "op": "equals",
+                  "value": "01-Pass",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "myFilter",
+              "logicalOperator": "OR",
+              "configs": [
+                {
+                  "field": "testCaseStatus",
+                  "op": "equals",
+                  "value": "04-Fail",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6509590c92694f7d37c20ee3"
+          },
+          "description": "new item",
+          "type": "tree-map-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Cycles Vs. Tests",
+            "colors": "#C43668,#69D791,#2A69E6,#C43667,#573345,#B282DD,#C47036,#C46536,#365EC4,#A369D7,#C95837,#36BDC4,#36C4C0,#C43644,#3D2B57,#C7BC97,#4B573F,#DE5076,#D76973,#D0505B,#36C4A7,#63CC98,#C44136,#C38849,#C4AB36,#57332C,#369AC4,#82DDA3,#5B36C4,#C48836,#4B505B,#C49236,#364AC4,#91949C,#47C99E,#7F36C4,#D06250,#573B30,#BD572F,#366DC4,#4E3C25,#C44C36,#313A57,#4F4E73,#36C484",
+            "animations": true,
+            "gradient": null,
+            "tooltipDisabled": null
+          },
+          "rows": 6,
+          "cols": 12,
+          "x": 0,
+          "y": 4,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "6509598e92694f7d37c20ee4"
+          },
+          "type": "line-chart-series",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Execution Trend",
+            "colors": "#00cc00,#2A69E6,#aa00aa,#cc0000,#c0c0c0,#e0e0e0,#C7BC97,#C4AB36,#D0505B,#573345,#C95837,#365EC4,#C43668,#C48836,#C44C36,#364AC4,#4B505B,#2A69E6,#7F36C4,#36C484,#5B36C4,#DE5076,#63CC98,#3D2B57,#C43644,#36C4A7,#82DDA3,#C38849,#C7BC97,#C46536,#369AC4,#B282DD,#91949C,#4E3C25,#47C99E,#C47036,#366DC4,#313A57,#C4AB36,#4B573F,#D76973,#C43667,#57332C,#C49236,#D06250,#A369D7,#C44136,#36C4C0,#BD572F,#69D791,#4F4E73,#36BDC4,#573B30",
+            "dateSeries": true,
+            "dateFormat": "DD-MMM-YYYY",
+            "cumulative": true,
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showXAxisLabel": true,
+            "showYAxisLabel": true,
+            "xAxisLabel": "Execution Date",
+            "yAxisLabel": "Test Count",
+            "animations": true,
+            "timeline": true,
+            "dateGroup": null,
+            "gradient": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "label": null
+          },
+          "rows": 4,
+          "cols": 16,
+          "x": 0,
+          "y": 10,
+          "filters": [
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "myFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "day30Flag",
+                  "op": "equals",
+                  "value": "true",
+                  "maxValue": ""
+                }
+              ],
+              "active": false
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "65095cf992694f7d37c20ee7"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Test Execution Coverage",
+            "colors": "#82DDA3,#36C4C0,#C46536,#57332C,#2A69E6,#C44136,#C95837,#366DC4,#573B30,#369AC4,#C49236,#4B505B,#C7BC97,#C4AB36,#C47036,#C43668,#91949C,#C38849,#BD572F,#313A57,#4F4E73,#C44C36,#C43644,#7F36C4,#364AC4,#36C484,#4B573F,#36BDC4,#B282DD,#D76973,#3D2B57,#C43667,#47C99E,#D0505B,#63CC98,#365EC4,#DE5076,#4E3C25,#A369D7,#69D791,#C48836,#D06250,#573345,#36C4A7,#5B36C4",
+            "animations": true,
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 4,
+          "x": 12,
+          "y": 4,
+          "filters": [],
+          "metricName": "Test Execution Coverage",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "65095d3592694f7d37c20ee8"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Test Automation Leverage",
+            "colors": "#C38849,#36C484,#D06250,#573B30,#B282DD,#5B36C4,#C43667,#573345,#C44136,#313A57,#69D791,#D76973,#C44C36,#C95837,#C43668,#DE5076,#A369D7,#369AC4,#364AC4,#C4AB36,#3D2B57,#82DDA3,#36C4A7,#36C4C0,#57332C,#C46536,#C49236,#63CC98,#47C99E,#4F4E73,#4E3C25,#C7BC97,#C43644,#4B505B,#365EC4,#36BDC4,#4B573F,#7F36C4,#366DC4,#C47036,#C48836,#91949C,#2A69E6,#BD572F,#D0505B",
+            "animations": true,
+            "percentage": true,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 3,
+          "cols": 4,
+          "x": 12,
+          "y": 7,
+          "filters": [],
+          "metricName": "Test Automation Leverage",
+          "metricCategory": "derived"
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1695113231513"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1695113231513"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "651be03b921a0a1ed1f9db3c"
+  },
+  "name": "Release Level Template",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "2e43ef67-c471-4aea-87bf-f5c6d1bb9cec",
+      "name": "Current Release",
+      "gridConfig": {
+        "rows": 11,
+        "columns": 8,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "64bfbe5c22a2ef686028402b"
+          },
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Execution Summary T2RDrop2",
+            "colors": "#03C04A,#FFFF00,#36BDC4,#FF0000,#C48836,,#C49236,#A369D7,#C95837,#63CC98,#D06250,#C43668,#C43667,#573B30,#C43644,#47C99E,#C46536,#B282DD,#366DC4,#C44C36,#364AC4,#365EC4,#369AC4,#5B36C4,#7F36C4,#C47036,#36C484,#C4AB36,#BD572F,#C38849,#4B505B,#91949C,#573345,#82DDA3,#D0505B,#C7BC97,#36C4A7,#,#4F4E73,#36C4C0,#4B573F",
+            "gradient": null,
+            "animations": null,
+            "tooltipDisabled": null,
+            "label": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "showDataLabel": null,
+            "barPadding": null,
+            "roundEdges": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "timeline": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "firstFolderName",
+                  "op": "equals",
+                  "value": "SIT_Drop2",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfbf4f22a2ef686028402c"
+          },
+          "type": "line-chart-series",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Execution Trend T2RDrop2",
+            "colors": "#03C04A,#FFFF00,#36BDC4,#FF0000,#C48836,,#C49236,#A369D7,#C95837,#63CC98,#D06250,#C43668,#C43667,#573B30,#C43644,#47C99E,#C46536,#B282DD,#366DC4,#C44C36,#364AC4,#365EC4,#369AC4,#5B36C4,#7F36C4,#C47036,#36C484,#C4AB36,#BD572F,#C38849,#4B505B,#91949C,#573345,#82DDA3,#D0505B,#C7BC97,#36C4A7,#,#4F4E73,#36C4C0,#4B573F",
+            "dateSeries": true,
+            "cumulative": true,
+            "gradient": false,
+            "xAxis": true,
+            "yAxis": true,
+            "legendPositionDown": true,
+            "showGridLines": true,
+            "timeline": true,
+            "rotateXAxisTicks": true,
+            "dateFormat": null,
+            "dateGroup": null,
+            "legend": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "noBarWhenZero": null,
+            "showDataLabel": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "firstFolderName",
+                  "op": "equals",
+                  "value": "SIT_Drop2",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc23422a2ef686028402d"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Defect By Status T2RDrop2",
+            "colors": "#C43644,#4F4E73,#C95837,#91949C,#D06250,#7F36C4,#2A69E6,#366DC4,#57332C,#47C99E,#DE5076,#A369D7,#C47036,#369AC4,#D0505B,#C43668,#BD572F,#364AC4,#36BDC4,#313A57,#63CC98,#4E3C25,#3D2B57,#365EC4,#82DDA3,#C4AB36,#D76973,#C7BC97,#C44C36,#B282DD,#573345,#C38849,#C46536,#36C484,#36C4C0,#69D791,#C48836,#C43667,#5B36C4,#4B505B,#C44136,#573B30,#36C4A7,#C49236,#4B573F",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null,
+            "label": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc31d22a2ef686028402e"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Closed Defect By Status T2RDrop2",
+            "colors": "#D06250,#2A69E6,#C48836,#63CC98,#C44136,#C47036,#364AC4,#D0505B,#366DC4,#47C99E,#57332C,#36C484,#C38849,#69D791,#C4AB36,#DE5076,#573345,#3D2B57,#36BDC4,#A369D7,#4E3C25,#C46536,#C7BC97,#36C4C0,#91949C,#BD572F,#C49236,#573B30,#B282DD,#313A57,#7F36C4,#365EC4,#369AC4,#4B573F,#36C4A7,#C43668,#4B505B,#D76973,#5B36C4,#C43667,#4F4E73,#C43644,#C95837,#C44C36,#82DDA3",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "timeline": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusjFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "Done",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc46622a2ef686028402f"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Defect By Priority T2RDrop2",
+            "colors": "#C43668,#C7BC97,#63CC98,#BD572F,#C49236,#36C484,#4F4E73,#573B30,#364AC4,#B282DD,#365EC4,#4B505B,#C43667,#C38849,#7F36C4,#C47036,#369AC4,#91949C,#573345,#D0505B,#C48836,#3D2B57,#2A69E6,#C4AB36,#C44136,#C43644,#D06250,#5B36C4,#57332C,#36BDC4,#69D791,#313A57,#C95837,#A369D7,#82DDA3,#4E3C25,#366DC4,#C46536,#36C4A7,#4B573F,#C44C36,#D76973,#DE5076,#36C4C0,#47C99E",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "showDataLabel": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 6,
+          "filters": [
+            {
+              "name": "statusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "dropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc54222a2ef6860284030"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Closed Defect By Priority T2RDrop2",
+            "colors": "#C47036,#C49236,#573B30,#D06250,#364AC4,#4F4E73,#D76973,#36C484,#BD572F,#C43644,#DE5076,#313A57,#47C99E,#D0505B,#82DDA3,#365EC4,#C38849,#36BDC4,#57332C,#69D791,#4E3C25,#573345,#366DC4,#C43667,#3D2B57,#36C4A7,#B282DD,#C44C36,#C46536,#C4AB36,#4B505B,#2A69E6,#7F36C4,#C48836,#4B573F,#36C4C0,#5B36C4,#C43668,#A369D7,#C95837,#369AC4,#63CC98,#91949C,#C44136,#C7BC97",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 2,
+          "y": 6,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd1b322a2ef6860284037"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "RejectionRateT2RDrop2",
+            "colors": "#4E3C25,#573345,#36BDC4,#365EC4,#366DC4,#C4AB36,#69D791,#82DDA3,#C43667,#C44C36,#C95837,#36C484,#36C4C0,#91949C,#369AC4,#A369D7,#D76973,#C47036,#C7BC97,#C43668,#C43644,#7F36C4,#C46536,#364AC4,#2A69E6,#C49236,#4B573F,#C38849,#D0505B,#4F4E73,#47C99E,#36C4A7,#D06250,#4B505B,#C44136,#313A57,#BD572F,#63CC98,#DE5076,#5B36C4,#573B30,#C48836,#57332C,#B282DD,#3D2B57",
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop2_RejectionRate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd22a22a2ef6860284038"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Re-OpenedRateT2RDrop2",
+            "colors": "#BD572F,#D0505B,#5B36C4,#313A57,#D06250,#D76973,#C44136,#C49236,#369AC4,#DE5076,#C48836,#36C4C0,#C95837,#63CC98,#57332C,#36BDC4,#3D2B57,#573345,#C46536,#2A69E6,#B282DD,#4E3C25,#36C484,#A369D7,#C7BC97,#C44C36,#91949C,#36C4A7,#69D791,#4B573F,#C43644,#82DDA3,#C43668,#C38849,#4F4E73,#4B505B,#C4AB36,#573B30,#364AC4,#365EC4,#C43667,#366DC4,#7F36C4,#47C99E,#C47036",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 2,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop2_ReOpened_Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd28022a2ef6860284039"
+          },
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "TestFailureRateT2RDrop2",
+            "colors": "#573345,#D06250,#2A69E6,#82DDA3,#C44C36,#C7BC97,#BD572F,#91949C,#36C4C0,#A369D7,#C49236,#369AC4,#63CC98,#5B36C4,#C46536,#364AC4,#36C4A7,#C47036,#47C99E,#B282DD,#4E3C25,#573B30,#69D791,#4B505B,#DE5076,#7F36C4,#C43667,#365EC4,#C38849,#36C484,#C4AB36,#D0505B,#C44136,#C43668,#366DC4,#C95837,#57332C,#4B573F,#C43644,#4F4E73,#3D2B57,#36BDC4,#313A57,#D76973,#C48836",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 4,
+          "y": 4,
+          "filters": [],
+          "metricName": "T2R_Drop2_Test_effectiveness_Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd2ed22a2ef686028403a"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "DefectAgeingT2RDrop2",
+            "colors": "#3D2B57,#4F4E73,#B282DD,#C4AB36,#63CC98,#D76973,#C49236,#47C99E,#313A57,#C46536,#C43668,#69D791,#573345,#4B573F,#C95837,#366DC4,#C44136,#A369D7,#5B36C4,#573B30,#D0505B,#C38849,#C43644,#364AC4,#36C4C0,#D06250,#BD572F,#369AC4,#82DDA3,#57332C,#365EC4,#36BDC4,#DE5076,#4E3C25,#C7BC97,#C47036,#91949C,#C48836,#C43667,#2A69E6,#C44C36,#36C4A7,#4B505B,#36C484,#7F36C4",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 5,
+          "y": 6,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop2_DefectAgeing",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd3f522a2ef686028403b"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "DefectByComponentLevelProgressT2RDrop2",
+            "colors": "#69D791,#36BDC4,#573345,#A369D7,#366DC4,#C47036,#C43644,#57332C,#3D2B57,#DE5076,#D06250,#C46536,#BD572F,#C4AB36,#5B36C4,#B282DD,#82DDA3,#36C484,#4B573F,#4B505B,#365EC4,#369AC4,#C43667,#C7BC97,#47C99E,#63CC98,#C95837,#91949C,#2A69E6,#C44C36,#313A57,#C43668,#D76973,#C49236,#573B30,#4E3C25,#36C4A7,#D0505B,#4F4E73,#364AC4,#C44136,#C48836,#7F36C4,#C38849,#36C4C0",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null
+          },
+          "rows": 3,
+          "cols": 8,
+          "x": 0,
+          "y": 8,
+          "filters": [
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1696325691048"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1696325691048"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "651d0042921a0a1ed1f9db43"
+  },
+  "name": "Derived Metrics",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "65fd8eae-1f65-4d1a-8f51-4b317f2cb5eb",
+      "name": "Derived Metrics Page",
+      "gridConfig": {
+        "rows": 8,
+        "columns": 8,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "64b8d74a4743184ae06f303b"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Defect Rejection Rate",
+            "colors": "#82DDA3,#365EC4,#C7BC97,#C43668,#313A57,#36C4A7,#63CC98,#B282DD,#C44136,#C4AB36,#366DC4,#36C4C0,#C95837,#573B30,#A369D7,#4F4E73,#364AC4,#C38849,#36BDC4,#369AC4,#36C484,#DE5076,#69D791,#D76973,#91949C,#BD572F,#C47036,#4B573F,#C46536,#3D2B57,#C43667,#5B36C4,#7F36C4,#4E3C25,#57332C,#C49236,#573345,#C44C36,#C43644,#47C99E,#D0505B,#2A69E6,#C48836,#4B505B,#D06250",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 0,
+          "filters": [],
+          "metricName": "Defect Rejection Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "65153f463f8e745c497abdca"
+          },
+          "type": "bar-chart-vertical",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "In Grouping",
+            "colors": "#366DC4,#4B505B,#C95837,#5B36C4,#573345,#573B30,#C44136,#C43644,#63CC98,#364AC4,#313A57,#B282DD,#C47036,#4E3C25,#DE5076,#91949C,#36C484,#36C4C0,#D76973,#C44C36,#C43668,#69D791,#4F4E73,#7F36C4,#3D2B57,#C48836,#2A69E6,#4B573F,#365EC4,#C43667,#47C99E,#A369D7,#C7BC97,#C4AB36,#C49236,#D0505B,#C46536,#369AC4,#D06250,#57332C,#82DDA3,#36C4A7,#BD572F,#36BDC4,#C38849",
+            "legendPositionDown": false,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": true,
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "showXAxisLabel": true,
+            "showYAxisLabel": true,
+            "xAxisLabel": "Priority",
+            "yAxisLabel": "Defect Rejection Rate (in %)",
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": true,
+            "showGridLines": true,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": true,
+            "showDataLabel": true,
+            "barPadding": null,
+            "roundEdges": true
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 2,
+          "y": 0,
+          "filters": [],
+          "metricName": "Defect Rejection Rate - Group",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "6515404f3f8e745c497abdcb"
+          },
+          "type": "bar-chart-vertical",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "In Trending",
+            "colors": "#C43667,#365EC4,#C46536,#B282DD,#C4AB36,#C38849,#D06250,#C44C36,#A369D7,#C44136,#C49236,#5B36C4,#BD572F,#63CC98,#4B505B,#7F36C4,#C43668,#82DDA3,#366DC4,#3D2B57,#C7BC97,#573B30,#364AC4,#91949C,#57332C,#36C4A7,#4E3C25,#4B573F,#4F4E73,#369AC4,#C95837,#C43644,#C47036,#573345,#69D791,#C48836,#36C4C0,#DE5076,#D0505B,#313A57,#2A69E6,#36BDC4,#D76973,#47C99E,#36C484",
+            "legendPositionDown": true,
+            "dateSeries": true,
+            "dateFormat": "MMM YYYY",
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "xAxis": true,
+            "yAxis": true,
+            "legend": false,
+            "showXAxisLabel": true,
+            "showYAxisLabel": true,
+            "xAxisLabel": "Months",
+            "yAxisLabel": "Defect Rejection Rate (in %)",
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": true,
+            "showGridLines": true,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": true,
+            "showDataLabel": true,
+            "barPadding": null,
+            "roundEdges": true
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 5,
+          "y": 0,
+          "filters": [],
+          "metricName": "Defect Rejection Rate - Trend",
+          "metricCategory": "derived"
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1696399426361"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1696399426361"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "65326a81a6db4a02873e21bd"
+  },
+  "name": "DGTRd2",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "2e43ef67-c471-4aea-87bf-f5c6d1bb9cec",
+      "name": "Current Release",
+      "gridConfig": {
+        "rows": 11,
+        "columns": 8,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "64bfbe5c22a2ef686028402b"
+          },
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Execution Summary T2RDrop2",
+            "colors": "#03C04A,#FFFF00,#36BDC4,#FF0000,#C48836,,#C49236,#A369D7,#C95837,#63CC98,#D06250,#C43668,#C43667,#573B30,#C43644,#47C99E,#C46536,#B282DD,#366DC4,#C44C36,#364AC4,#365EC4,#369AC4,#5B36C4,#7F36C4,#C47036,#36C484,#C4AB36,#BD572F,#C38849,#4B505B,#91949C,#573345,#82DDA3,#D0505B,#C7BC97,#36C4A7,#,#4F4E73,#36C4C0,#4B573F",
+            "gradient": null,
+            "animations": null,
+            "tooltipDisabled": null,
+            "label": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "showDataLabel": null,
+            "barPadding": null,
+            "roundEdges": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "timeline": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "firstFolderName",
+                  "op": "equals",
+                  "value": "SIT_Drop2",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfbf4f22a2ef686028402c"
+          },
+          "type": "line-chart-series",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Execution Trend T2RDrop2",
+            "colors": "#03C04A,#FFFF00,#36BDC4,#FF0000,#C48836,,#C49236,#A369D7,#C95837,#63CC98,#D06250,#C43668,#C43667,#573B30,#C43644,#47C99E,#C46536,#B282DD,#366DC4,#C44C36,#364AC4,#365EC4,#369AC4,#5B36C4,#7F36C4,#C47036,#36C484,#C4AB36,#BD572F,#C38849,#4B505B,#91949C,#573345,#82DDA3,#D0505B,#C7BC97,#36C4A7,#,#4F4E73,#36C4C0,#4B573F",
+            "dateSeries": true,
+            "cumulative": true,
+            "gradient": false,
+            "xAxis": true,
+            "yAxis": true,
+            "legendPositionDown": true,
+            "showGridLines": true,
+            "timeline": true,
+            "rotateXAxisTicks": true,
+            "dateFormat": null,
+            "dateGroup": null,
+            "legend": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "noBarWhenZero": null,
+            "showDataLabel": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "firstFolderName",
+                  "op": "equals",
+                  "value": "SIT_Drop2",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc23422a2ef686028402d"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Defect By Status T2RDrop2",
+            "colors": "#C43644,#4F4E73,#C95837,#91949C,#D06250,#7F36C4,#2A69E6,#366DC4,#57332C,#47C99E,#DE5076,#A369D7,#C47036,#369AC4,#D0505B,#C43668,#BD572F,#364AC4,#36BDC4,#313A57,#63CC98,#4E3C25,#3D2B57,#365EC4,#82DDA3,#C4AB36,#D76973,#C7BC97,#C44C36,#B282DD,#573345,#C38849,#C46536,#36C484,#36C4C0,#69D791,#C48836,#C43667,#5B36C4,#4B505B,#C44136,#573B30,#36C4A7,#C49236,#4B573F",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null,
+            "label": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc31d22a2ef686028402e"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Closed Defect By Status T2RDrop2",
+            "colors": "#D06250,#2A69E6,#C48836,#63CC98,#C44136,#C47036,#364AC4,#D0505B,#366DC4,#47C99E,#57332C,#36C484,#C38849,#69D791,#C4AB36,#DE5076,#573345,#3D2B57,#36BDC4,#A369D7,#4E3C25,#C46536,#C7BC97,#36C4C0,#91949C,#BD572F,#C49236,#573B30,#B282DD,#313A57,#7F36C4,#365EC4,#369AC4,#4B573F,#36C4A7,#C43668,#4B505B,#D76973,#5B36C4,#C43667,#4F4E73,#C43644,#C95837,#C44C36,#82DDA3",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "timeline": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusjFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "Done",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc46622a2ef686028402f"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Open Defect By Priority T2RDrop2",
+            "colors": "#C43668,#C7BC97,#63CC98,#BD572F,#C49236,#36C484,#4F4E73,#573B30,#364AC4,#B282DD,#365EC4,#4B505B,#C43667,#C38849,#7F36C4,#C47036,#369AC4,#91949C,#573345,#D0505B,#C48836,#3D2B57,#2A69E6,#C4AB36,#C44136,#C43644,#D06250,#5B36C4,#57332C,#36BDC4,#69D791,#313A57,#C95837,#A369D7,#82DDA3,#4E3C25,#366DC4,#C46536,#36C4A7,#4B573F,#C44C36,#D76973,#DE5076,#36C4C0,#47C99E",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "showDataLabel": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 6,
+          "filters": [
+            {
+              "name": "statusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "dropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfc54222a2ef6860284030"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Closed Defect By Priority T2RDrop2",
+            "colors": "#C47036,#C49236,#573B30,#D06250,#364AC4,#4F4E73,#D76973,#36C484,#BD572F,#C43644,#DE5076,#313A57,#47C99E,#D0505B,#82DDA3,#365EC4,#C38849,#36BDC4,#57332C,#69D791,#4E3C25,#573345,#366DC4,#C43667,#3D2B57,#36C4A7,#B282DD,#C44C36,#C46536,#C4AB36,#4B505B,#2A69E6,#7F36C4,#C48836,#4B573F,#36C4C0,#5B36C4,#C43668,#A369D7,#C95837,#369AC4,#63CC98,#91949C,#C44136,#C7BC97",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 2,
+          "y": 6,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd1b322a2ef6860284037"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "RejectionRateT2RDrop2",
+            "colors": "#4E3C25,#573345,#36BDC4,#365EC4,#366DC4,#C4AB36,#69D791,#82DDA3,#C43667,#C44C36,#C95837,#36C484,#36C4C0,#91949C,#369AC4,#A369D7,#D76973,#C47036,#C7BC97,#C43668,#C43644,#7F36C4,#C46536,#364AC4,#2A69E6,#C49236,#4B573F,#C38849,#D0505B,#4F4E73,#47C99E,#36C4A7,#D06250,#4B505B,#C44136,#313A57,#BD572F,#63CC98,#DE5076,#5B36C4,#573B30,#C48836,#57332C,#B282DD,#3D2B57",
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop2_RejectionRate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd22a22a2ef6860284038"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Re-OpenedRateT2RDrop2",
+            "colors": "#BD572F,#D0505B,#5B36C4,#313A57,#D06250,#D76973,#C44136,#C49236,#369AC4,#DE5076,#C48836,#36C4C0,#C95837,#63CC98,#57332C,#36BDC4,#3D2B57,#573345,#C46536,#2A69E6,#B282DD,#4E3C25,#36C484,#A369D7,#C7BC97,#C44C36,#91949C,#36C4A7,#69D791,#4B573F,#C43644,#82DDA3,#C43668,#C38849,#4F4E73,#4B505B,#C4AB36,#573B30,#364AC4,#365EC4,#C43667,#366DC4,#7F36C4,#47C99E,#C47036",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 2,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop2_ReOpened_Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd28022a2ef6860284039"
+          },
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "TestFailureRateT2RDrop2",
+            "colors": "#573345,#D06250,#2A69E6,#82DDA3,#C44C36,#C7BC97,#BD572F,#91949C,#36C4C0,#A369D7,#C49236,#369AC4,#63CC98,#5B36C4,#C46536,#364AC4,#36C4A7,#C47036,#47C99E,#B282DD,#4E3C25,#573B30,#69D791,#4B505B,#DE5076,#7F36C4,#C43667,#365EC4,#C38849,#36C484,#C4AB36,#D0505B,#C44136,#C43668,#366DC4,#C95837,#57332C,#4B573F,#C43644,#4F4E73,#3D2B57,#36BDC4,#313A57,#D76973,#C48836",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 4,
+          "y": 4,
+          "filters": [],
+          "metricName": "T2R_Drop2_Test_effectiveness_Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd2ed22a2ef686028403a"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "DefectAgeingT2RDrop2",
+            "colors": "#3D2B57,#4F4E73,#B282DD,#C4AB36,#63CC98,#D76973,#C49236,#47C99E,#313A57,#C46536,#C43668,#69D791,#573345,#4B573F,#C95837,#366DC4,#C44136,#A369D7,#5B36C4,#573B30,#D0505B,#C38849,#C43644,#364AC4,#36C4C0,#D06250,#BD572F,#369AC4,#82DDA3,#57332C,#365EC4,#36BDC4,#DE5076,#4E3C25,#C7BC97,#C47036,#91949C,#C48836,#C43667,#2A69E6,#C44C36,#36C4A7,#4B505B,#36C484,#7F36C4",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 5,
+          "y": 6,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop2_DefectAgeing",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd3f522a2ef686028403b"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "DefectByComponentLevelProgressT2RDrop2",
+            "colors": "#69D791,#36BDC4,#573345,#A369D7,#366DC4,#C47036,#C43644,#57332C,#3D2B57,#DE5076,#D06250,#C46536,#BD572F,#C4AB36,#5B36C4,#B282DD,#82DDA3,#36C484,#4B573F,#4B505B,#365EC4,#369AC4,#C43667,#C7BC97,#47C99E,#63CC98,#C95837,#91949C,#2A69E6,#C44C36,#313A57,#C43668,#D76973,#C49236,#573B30,#4E3C25,#36C4A7,#D0505B,#4F4E73,#364AC4,#C44136,#C48836,#7F36C4,#C38849,#36C4C0",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null
+          },
+          "rows": 3,
+          "cols": 8,
+          "x": 0,
+          "y": 8,
+          "filters": [
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-777",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1697802881366"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1697802881366"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+},{
+  "_id": {
+    "$oid": "65326a96a6db4a02873e21be"
+  },
+  "name": "DGTRd1",
+  "active": true,
+  "openAccess": false,
+  "pages": [
+    {
+      "pageId": "99a752bf-f989-409e-8d3b-c265bdda87ba",
+      "name": "Previous Release",
+      "gridConfig": {
+        "rows": 11,
+        "columns": 8,
+        "margin": 0
+      },
+      "active": true,
+      "items": [
+        {
+          "_id": {
+            "$oid": "64bfd4ae22a2ef686028403e"
+          },
+          "type": "pie-chart-advanced",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "ExecutionSummaryT2RDrop1",
+            "colors": "#03C04A,#36BDC4,#C48836,,#C49236,#A369D7,#C95837,#63CC98,#D06250,#C43668,#C43667,#573B30,#C43644,#47C99E,#C46536,#B282DD,#366DC4,#C44C36,#364AC4,#365EC4,#369AC4,#5B36C4,#7F36C4,#C47036,#36C484,#C4AB36,#BD572F,#C38849,#4B505B,#91949C,#573345,#82DDA3,#D0505B,#C7BC97,#36C4A7,#,#4F4E73,#36C4C0,#4B573F",
+            "dateSeries--disabled": true,
+            "gradient": null,
+            "animations": null,
+            "tooltipDisabled": null,
+            "label": null,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "xAxis": null,
+            "yAxis": null,
+            "legend": null,
+            "legendPositionDown": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "timeline": null,
+            "rotateXAxisTicks": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "firstFolderName",
+                  "op": "equals",
+                  "value": "SIT_Drop1",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd61e22a2ef6860284040"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "OpenDefectByStatusT2RDrop1",
+            "colors": "#57332C,#366DC4,#C44C36,#4B573F,#B282DD,#D06250,#573345,#C43668,#C48836,#C49236,#4E3C25,#47C99E,#D0505B,#C47036,#DE5076,#63CC98,#91949C,#369AC4,#C95837,#C4AB36,#36BDC4,#82DDA3,#69D791,#3D2B57,#36C4A7,#A369D7,#D76973,#BD572F,#C44136,#36C484,#7F36C4,#4B505B,#C38849,#364AC4,#C7BC97,#573B30,#4F4E73,#313A57,#C43644,#365EC4,#2A69E6,#5B36C4,#C46536,#C43667,#36C4C0",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 0,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-105",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd6c222a2ef6860284041"
+          },
+          "description": "new item",
+          "type": "bar-chart-horizontal",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "ClosedDefectByStatusT2RDrop1",
+            "colors": "#D06250,#7F36C4,#3D2B57,#47C99E,#BD572F,#573345,#4F4E73,#57332C,#36C484,#364AC4,#4B573F,#C7BC97,#366DC4,#D76973,#4B505B,#63CC98,#2A69E6,#C38849,#C44136,#313A57,#C46536,#36C4C0,#A369D7,#36C4A7,#C49236,#C43644,#C44C36,#C43667,#4E3C25,#5B36C4,#69D791,#D0505B,#C43668,#C4AB36,#C48836,#B282DD,#C95837,#369AC4,#DE5076,#36BDC4,#82DDA3,#91949C,#C47036,#573B30,#365EC4",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "roundEdges": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 2,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "Done",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-105",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd71e22a2ef6860284042"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "RejectionRateT2RDrop1",
+            "colors": "#36C4A7,#C48836,#57332C,#2A69E6,#A369D7,#C4AB36,#C49236,#4B505B,#C43668,#5B36C4,#C38849,#C47036,#C44C36,#7F36C4,#D0505B,#47C99E,#B282DD,#36C484,#3D2B57,#C43644,#4B573F,#82DDA3,#365EC4,#364AC4,#C43667,#36BDC4,#36C4C0,#366DC4,#C95837,#C7BC97,#C46536,#369AC4,#313A57,#D06250,#4E3C25,#63CC98,#4F4E73,#91949C,#D76973,#573B30,#573345,#C44136,#69D791,#DE5076,#BD572F",
+            "percentage": true,
+            "dateSeries--disabled": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop1_RejectionRate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd76d22a2ef6860284043"
+          },
+          "description": "new item",
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "Re-openedRateT2RDrop1",
+            "colors": "#36C4A7,#C7BC97,#7F36C4,#C44C36,#BD572F,#D0505B,#B282DD,#91949C,#C43668,#47C99E,#C46536,#4B573F,#C43667,#4F4E73,#C48836,#2A69E6,#69D791,#C95837,#364AC4,#573345,#365EC4,#C38849,#3D2B57,#C47036,#C43644,#36C4C0,#C4AB36,#573B30,#DE5076,#C49236,#82DDA3,#4B505B,#36C484,#63CC98,#D76973,#366DC4,#369AC4,#5B36C4,#A369D7,#D06250,#36BDC4,#4E3C25,#313A57,#57332C,#C44136",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 2,
+          "y": 4,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop1_ReOpened_Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd7bf22a2ef6860284044"
+          },
+          "type": "card-chart",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "TestFailureRateT2RDrop1",
+            "colors": "#DE5076,#C44C36,#4B573F,#BD572F,#57332C,#47C99E,#3D2B57,#D06250,#C95837,#C48836,#C43668,#36BDC4,#C47036,#7F36C4,#573345,#C38849,#C43644,#364AC4,#69D791,#C46536,#369AC4,#4B505B,#36C4C0,#4F4E73,#4E3C25,#2A69E6,#313A57,#36C4A7,#63CC98,#91949C,#366DC4,#C44136,#82DDA3,#C4AB36,#573B30,#36C484,#A369D7,#365EC4,#B282DD,#D0505B,#C7BC97,#C43667,#D76973,#5B36C4,#C49236",
+            "percentage": true,
+            "animations": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 4,
+          "y": 4,
+          "filters": [],
+          "metricName": "T2R_Drop1_Test_effectiveness_Rate",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd87622a2ef6860284045"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "OpenDefectByPriorityT2RDrop1",
+            "colors": "#36C4A7,#364AC4,#4E3C25,#4F4E73,#C44C36,#C43644,#7F36C4,#D76973,#573B30,#C44136,#C7BC97,#BD572F,#57332C,#3D2B57,#C38849,#36BDC4,#36C4C0,#63CC98,#69D791,#5B36C4,#A369D7,#2A69E6,#C43667,#C95837,#D0505B,#D06250,#366DC4,#C43668,#C48836,#36C484,#47C99E,#365EC4,#91949C,#DE5076,#4B505B,#C49236,#313A57,#C47036,#B282DD,#C4AB36,#369AC4,#82DDA3,#C46536,#573345,#4B573F",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null
+          },
+          "rows": 2,
+          "cols": 2,
+          "x": 0,
+          "y": 6,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "In Progress",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "dropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-105",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd90522a2ef6860284046"
+          },
+          "description": "new item",
+          "type": "drilldown-bar-vertical-pie-chart-fusion",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "ClosedDefectByPriorityT2RDrop1",
+            "colors": "#DE5076,#63CC98,#4F4E73,#4E3C25,#91949C,#C46536,#4B505B,#366DC4,#BD572F,#7F36C4,#369AC4,#C43667,#D0505B,#36C484,#365EC4,#313A57,#36BDC4,#364AC4,#C44C36,#36C4C0,#A369D7,#C4AB36,#D76973,#C48836,#C44136,#C43668,#82DDA3,#C49236,#C43644,#4B573F,#C7BC97,#573345,#D06250,#C95837,#5B36C4,#2A69E6,#69D791,#47C99E,#C38849,#36C4A7,#3D2B57,#573B30,#B282DD,#57332C,#C47036",
+            "caption": null,
+            "subcaption": null,
+            "xaxisname": null,
+            "yaxisname": null
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 2,
+          "y": 6,
+          "filters": [
+            {
+              "name": "StatusFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "statusCategoryName",
+                  "op": "equals",
+                  "value": "Done",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-105",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd95122a2ef6860284047"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "DefectAgeingT2RDrop1",
+            "colors": "#47C99E,#573345,#4B505B,#C44136,#69D791,#C47036,#4F4E73,#36BDC4,#365EC4,#36C4C0,#D06250,#63CC98,#C95837,#C48836,#313A57,#D76973,#369AC4,#C38849,#36C4A7,#3D2B57,#C43644,#364AC4,#91949C,#C4AB36,#C43667,#C43668,#B282DD,#4E3C25,#C49236,#BD572F,#C7BC97,#C46536,#DE5076,#4B573F,#36C484,#D0505B,#7F36C4,#A369D7,#82DDA3,#5B36C4,#C44C36,#573B30,#57332C,#2A69E6,#366DC4",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null,
+            "innerPadding": null,
+            "cardColor": null,
+            "textColor": null,
+            "caption": null,
+            "percentage": null
+          },
+          "rows": 2,
+          "cols": 3,
+          "x": 5,
+          "y": 6,
+          "filters": [],
+          "metricName": "JIRA_T2R_Drop1_DefectAgeing",
+          "metricCategory": "derived"
+        },
+        {
+          "_id": {
+            "$oid": "64bfd9eb22a2ef6860284048"
+          },
+          "description": "new item",
+          "type": "bar-vertical-stacked",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "DefectByComponentlevelProgressT2RDrop1",
+            "colors": "#364AC4,#D0505B,#C44C36,#C46536,#365EC4,#C44136,#2A69E6,#573B30,#366DC4,#36C4A7,#4B573F,#82DDA3,#C43644,#C7BC97,#C43667,#36C4C0,#57332C,#4B505B,#D76973,#573345,#4F4E73,#C49236,#47C99E,#BD572F,#7F36C4,#B282DD,#4E3C25,#C38849,#D06250,#5B36C4,#36BDC4,#63CC98,#C95837,#C43668,#C4AB36,#C47036,#69D791,#DE5076,#36C484,#A369D7,#369AC4,#3D2B57,#313A57,#C48836,#91949C",
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showDataLabel": true,
+            "dateSeries--disabled": true,
+            "dateSeries": null,
+            "dateFormat": null,
+            "dateGroup": null,
+            "cumulative": null,
+            "gradient": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "yScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "showGridLines": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "rotateXAxisTicks": null,
+            "noBarWhenZero": null,
+            "barPadding": null
+          },
+          "rows": 3,
+          "cols": 8,
+          "x": 0,
+          "y": 8,
+          "filters": [
+            {
+              "name": "dropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "linkedEpic",
+                  "op": "equals",
+                  "value": "DGT2R-105",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "64bfd57222a2ef686028403f"
+          },
+          "type": "line-chart-series",
+          "itemGroup": "datachart",
+          "options": {
+            "title": "ExecutionTrendT2RDrop1",
+            "colors": "#03C04A,#36BDC4,#C48836,,#C49236,#A369D7,#C95837,#63CC98,#D06250,#C43668,#C43667,#573B30,#C43644,#47C99E,#C46536,#B282DD,#366DC4,#C44C36,#364AC4,#365EC4,#369AC4,#5B36C4,#7F36C4,#C47036,#36C484,#C4AB36,#BD572F,#C38849,#4B505B,#91949C,#573345,#82DDA3,#D0505B,#C7BC97,#36C4A7,#,#4F4E73,#36C4C0,#4B573F",
+            "dateSeries": true,
+            "cumulative": true,
+            "gradient": true,
+            "xAxis": true,
+            "yAxis": true,
+            "legend": true,
+            "legendPositionDown": true,
+            "showGridLines": true,
+            "timeline": true,
+            "rotateXAxisTicks": true,
+            "dateFormat": null,
+            "dateGroup": null,
+            "showXAxisLabel": null,
+            "showYAxisLabel": null,
+            "xAxisLabel": null,
+            "yAxisLabel": null,
+            "autoScale": null,
+            "yScaleMin": null,
+            "yScaleMax": null,
+            "xScaleMin": null,
+            "xScaleMax": null,
+            "roundDomains": null,
+            "animations": null,
+            "legendTitle": null,
+            "tooltipDisabled": null,
+            "trimXAxisTicks": null,
+            "maxXAxisTickLength": null,
+            "trimYAxisTicks": null,
+            "maxYAxisTickLength": null,
+            "label": null
+          },
+          "rows": 2,
+          "cols": 4,
+          "x": 4,
+          "y": 0,
+          "filters": [
+            {
+              "name": "TestFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "type",
+                  "op": "equals",
+                  "value": "Test Run",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            },
+            {
+              "name": "DropFilter",
+              "logicalOperator": "AND",
+              "configs": [
+                {
+                  "field": "firstFolderName",
+                  "op": "equals",
+                  "value": "SIT_Drop1",
+                  "maxValue": ""
+                }
+              ],
+              "active": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "category": "PRJ",
+  "createdUser": "sample@cts.com",
+  "createdDate": {
+    "$date": {
+      "$numberLong": "1697802902014"
+    }
+  },
+  "lastModifiedUser": "sample@cts.com",
+  "lastModifiedDate": {
+    "$date": {
+      "$numberLong": "1697802902014"
+    }
+  },
+  "_class": "com.cognizant.ciqdashboardapi.models.CIQDashboardTemplate"
+}]
