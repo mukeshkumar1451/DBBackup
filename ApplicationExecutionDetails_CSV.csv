@@ -1,0 +1,11 @@
+﻿ApplicationName,ApplicationType,MigrationStatus,ExecutionInfrastructureProfile,Passed,Failed,Blocked,NotExecuted
+Application_1,Cloud Native,In-Progress,Application using Containers,43,25,3,86
+Application_2,Rehosted,Not Started,Application using Cloud VMs,65,24,86,79
+Application_3,Rehosted,Completed,Application using Containers,46,88,77,90
+Application_4,Cloud Native,Completed,Application using On-Prem Server,5,4,55,86
+Application_5,Rehosted,In-Progress,Application using On-Prem Server,77,66,93,12
+Application_6,Rehosted,Not Started,Application using Containers,68,84,73,59
+Application_7,Cloud Native,Not Started,Application using On-Prem Server,15,34,9,76
+Application_8,Rehosted,In-Progress,Application using On-Prem Server,13,7,36,11
+Application_9,Rehosted,In-Progress,Application using On-Prem Server,13,21,33,51
+Application_10,Cloud Native,Completed,Application using Cloud VMs,52,86,45,26
