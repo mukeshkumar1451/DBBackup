@@ -1,0 +1,199 @@
+Certainly! Here are two potential defects for each test case:
+
+---
+
+### Test Case: Upload Photos or Videos with Feedback
+
+**Defect 1:**  
+**ID:** DEF001  
+**Title:** Feedback form fails to display uploaded photo preview.  
+**Description:** When a customer uploads a photo, the preview does not appear in the feedback form.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload a photo.
+4. Observe that the photo preview is missing.  
+**Expected Result:** The uploaded photo should be displayed as a preview in the feedback form.  
+**Actual Result:** The photo preview does not appear.
+
+**Defect 2:**  
+**ID:** DEF002  
+**Title:** Uploaded video causes form submission to fail.  
+**Description:** When a customer uploads a video and submits the feedback, the form submission fails with an error message.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload a video.
+4. Click "Submit".  
+**Expected Result:** The feedback with the uploaded video should be submitted successfully.  
+**Actual Result:** Form submission fails with an error message.
+
+---
+
+### Test Case: Upload Multiple Photos with Feedback
+
+**Defect 1:**  
+**ID:** DEF003  
+**Title:** Only one photo preview displayed when multiple photos are uploaded.  
+**Description:** When a customer uploads multiple photos, only the first photo preview is displayed in the feedback form.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload multiple photos.
+4. Observe the photo previews.  
+**Expected Result:** Previews for all uploaded photos should be displayed.  
+**Actual Result:** Only the first photo preview is displayed.
+
+**Defect 2:**  
+**ID:** DEF004  
+**Title:** Feedback submission fails with multiple photo uploads.  
+**Description:** When a customer uploads multiple photos and submits the feedback, the form submission fails with an error message.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload multiple photos.
+4. Click "Submit".  
+**Expected Result:** The feedback with all uploaded photos should be submitted successfully.  
+**Actual Result:** Form submission fails with an error message.
+
+---
+
+### Test Case: Upload Large Photo File with Feedback
+
+**Defect 1:**  
+**ID:** DEF005  
+**Title:** Large photo upload results in timeout error.  
+**Description:** When a customer uploads a large photo file, the upload process times out, preventing the upload.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload a large photo file (e.g., 10MB or more).  
+**Expected Result:** The large photo should be uploaded successfully.  
+**Actual Result:** The upload process times out with an error message.
+
+**Defect 2:**  
+**ID:** DEF006  
+**Title:** Large photo upload causes form to become unresponsive.  
+**Description:** When a customer uploads a large photo file, the feedback form becomes unresponsive.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload a large photo file (e.g., 10MB or more).  
+**Expected Result:** The feedback form should remain responsive during the upload process.  
+**Actual Result:** The form becomes unresponsive.
+
+---
+
+### Test Case: Upload Unsupported File Format
+
+**Defect 1:**  
+**ID:** DEF007  
+**Title:** Unsupported file format upload does not display error message.  
+**Description:** When a customer uploads a file with an unsupported format, no error message is displayed.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload an unsupported file format (e.g., .txt).  
+**Expected Result:** An error message indicating the unsupported file format should be displayed.  
+**Actual Result:** No error message is displayed.
+
+**Defect 2:**  
+**ID:** DEF008  
+**Title:** Unsupported file format upload allows form submission.  
+**Description:** When a customer uploads an unsupported file format, the form submission is allowed, but the file is not included.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload an unsupported file format (e.g., .txt).
+4. Click "Submit".  
+**Expected Result:** Form submission should be prevented, or an error message should be displayed.  
+**Actual Result:** Form submission is allowed, but the file is not included.
+
+---
+
+### Test Case: Cancel Photo/Video Upload
+
+**Defect 1:**  
+**ID:** DEF009  
+**Title:** Cancel button for upload is not functional.  
+**Description:** When a customer attempts to cancel an ongoing upload, the cancel button does not function, and the upload continues.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Initiate a large photo or video upload.
+4. Click the "Cancel" button during the upload process.  
+**Expected Result:** The upload should be canceled, and any partial upload should be removed from the form.  
+**Actual Result:** The cancel button does not function, and the upload continues.
+
+**Defect 2:**  
+**ID:** DEF010  
+**Title:** Partial upload remains after canceling upload.  
+**Description:** When a customer cancels an ongoing upload, a partial upload remains in the form.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Initiate a large photo or video upload.
+4. Click the "Cancel" button during the upload process.  
+**Expected Result:** The partial upload should be removed from the form.  
+**Actual Result:** A partial upload remains in the form.
+
+---
+
+### Test Case: Upload and Remove Photo/Video Before Submission
+
+**Defect 1:**  
+**ID:** DEF011  
+**Title:** Remove button for uploaded photo/video is not functional.  
+**Description:** When a customer attempts to remove an uploaded photo or video, the remove button does not function, and the file remains in the form.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload a photo or video.
+4. Click the "Remove" button associated with the uploaded file.  
+**Expected Result:** The uploaded file should be removed from the form.  
+**Actual Result:** The remove button does not function, and the file remains in the form.
+
+**Defect 2:**  
+**ID:** DEF012  
+**Title:** Removed photo/video still included in feedback submission.  
+**Description:** When a customer removes an uploaded photo or video and submits the feedback, the removed file is still included in the submission.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Upload a photo or video.
+4. Remove the uploaded file.
+5. Click "Submit".  
+**Expected Result:** The removed file should not be included in the feedback submission.  
+**Actual Result:** The removed file is still included in the submission.
+
+---
+
+### Test Case: Upload Photo/Video with Different Internet Speeds
+
+**Defect 1:**  
+**ID:** DEF013  
+**Title:** Photo/video upload fails under low-speed internet conditions.  
+**Description:** When a customer uploads a photo or video under low-speed internet conditions, the upload fails with an error message.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Simulate a low-speed internet connection.
+4. Upload a photo or video.  
+**Expected Result:** The photo or video should be uploaded successfully, albeit more slowly.  
+**Actual Result:** The upload fails with an error message.
+
+**Defect 2:**  
+**ID:** DEF014  
+**Title:** Upload progress indicator not displayed under low-speed internet conditions.  
+**Description:** When a customer uploads a photo or video under low-speed internet conditions, the upload progress indicator is not displayed, leaving the user unaware of the upload status.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback text.
+3. Simulate a low-speed internet connection.
+4. Upload a photo or video.  
+**Expected Result:** An upload progress indicator should be displayed during the upload process.  
+**Actual Result:** No upload progress indicator is displayed.
+
+---
+
+Let me know if you need further modifications or additional details!

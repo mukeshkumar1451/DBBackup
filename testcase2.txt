@@ -1,0 +1,335 @@
+Certainly! Here are six additional test cases for the user story:
+
+---
+
+### Test Case: Upload Multiple Photos with Feedback
+
+**Test Case ID:** TC002
+
+**Title:** Verify the ability to upload multiple photos along with feedback.
+
+**Description:** This test case verifies that a customer can upload multiple photos while submitting feedback.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback:**
+   - Enter feedback text in the provided text area.
+   - Verify that the feedback text is entered correctly.
+
+3. **Upload Multiple Photos:**
+   - Click on the "Upload" button for photos.
+   - Select multiple photos from the local device.
+   - Verify that all selected photos are uploaded and displayed as previews in the form.
+
+4. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback with the uploaded photos has been successfully submitted.
+
+5. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes all the uploaded photos.
+
+**Expected Results:**
+- The feedback form should allow the customer to upload multiple photos.
+- The uploaded photos should be displayed as previews before submission.
+- Upon submission, the feedback along with the uploaded photos should be confirmed and visible in the feedback history or confirmation page.
+
+**Postconditions:**
+- The feedback with the uploaded photos is stored in the system.
+
+---
+
+### Test Case: Upload Large Photo File with Feedback
+
+**Test Case ID:** TC003
+
+**Title:** Verify the ability to upload a large photo file along with feedback.
+
+**Description:** This test case verifies that a customer can upload a large photo file while submitting feedback.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback:**
+   - Enter feedback text in the provided text area.
+   - Verify that the feedback text is entered correctly.
+
+3. **Upload Large Photo:**
+   - Click on the "Upload" button for photos.
+   - Select a large photo file from the local device (e.g., 10MB or more).
+   - Verify that the large photo is uploaded and displayed as a preview in the form.
+
+4. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback with the uploaded large photo has been successfully submitted.
+
+5. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes the uploaded large photo.
+
+**Expected Results:**
+- The feedback form should allow the customer to upload a large photo file.
+- The uploaded large photo should be displayed as a preview before submission.
+- Upon submission, the feedback along with the uploaded large photo should be confirmed and visible in the feedback history or confirmation page.
+
+**Postconditions:**
+- The feedback with the uploaded large photo is stored in the system.
+
+---
+
+### Test Case: Upload Unsupported File Format
+
+**Test Case ID:** TC004
+
+**Title:** Verify the system handles unsupported file formats gracefully.
+
+**Description:** This test case verifies that the system provides appropriate feedback when a customer tries to upload an unsupported file format.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback:**
+   - Enter feedback text in the provided text area.
+   - Verify that the feedback text is entered correctly.
+
+3. **Attempt to Upload Unsupported File:**
+   - Click on the "Upload" button for photos or videos.
+   - Select a file with an unsupported format (e.g., a .txt file).
+   - Verify that the system displays an error message indicating that the file format is not supported.
+
+4. **Submit Feedback:**
+   - Ensure that the "Submit" button is disabled or that submission is prevented if only an unsupported file is uploaded.
+
+**Expected Results:**
+- The system should prevent the upload of unsupported file formats.
+- An appropriate error message should be displayed to the customer.
+- The "Submit" button should be disabled or submission should be prevented if only unsupported files are uploaded.
+
+**Postconditions:**
+- No unsupported file formats are stored in the system.
+
+---
+
+### Test Case: Cancel Photo/Video Upload
+
+**Test Case ID:** TC005
+
+**Title:** Verify the ability to cancel an ongoing photo or video upload.
+
+**Description:** This test case verifies that a customer can cancel an ongoing photo or video upload.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback:**
+   - Enter feedback text in the provided text area.
+   - Verify that the feedback text is entered correctly.
+
+3. **Initiate Photo/Video Upload:**
+   - Click on the "Upload" button for photos or videos.
+   - Select a large photo or video file from the local device to simulate a longer upload time.
+   - Verify that an upload progress indicator is displayed.
+
+4. **Cancel Upload:**
+   - Click on the "Cancel" button or icon during the upload process.
+   - Verify that the upload is stopped and any partial upload is removed from the form.
+
+5. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that the feedback is submitted successfully without the canceled upload.
+
+**Expected Results:**
+- The customer should be able to cancel an ongoing upload.
+- The system should remove any partially uploaded files from the form.
+- The feedback should be submitted successfully without the canceled upload.
+
+**Postconditions:**
+- No partially uploaded files are stored in the system.
+
+---
+
+### Test Case: Upload and Remove Photo/Video Before Submission
+
+**Test Case ID:** TC006
+
+**Title:** Verify the ability to remove a photo or video before submitting feedback.
+
+**Description:** This test case verifies that a customer can remove an uploaded photo or video before submitting feedback.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback:**
+   - Enter feedback text in the provided text area.
+   - Verify that the feedback text is entered correctly.
+
+3. **Upload a Photo/Video:**
+   - Click on the "Upload" button for photos or videos.
+   - Select a photo or video from the local device.
+   - Verify that the photo or video is uploaded and displayed as a preview in the form.
+
+4. **Remove Uploaded Photo/Video:**
+   - Click on the "Remove" button or icon associated with the uploaded photo or video.
+   - Verify that the uploaded photo or video is removed from the form.
+
+5. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that the feedback is submitted successfully without the removed upload.
+
+**Expected Results:**
+- The customer should be able to remove an uploaded photo or video before submission.
+- The feedback should be submitted successfully without the removed upload.
+
+**Postconditions:**
+- No removed files are stored in the system.
+
+---
+
+### Test Case: Upload Photo/Video with Different Internet Speeds
+
+**Test Case ID:** TC007
+
+**Title:** Verify the upload functionality with different internet speeds.
+
+**Description:** This test case verifies that the upload functionality works under different internet speed conditions.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback:**
+   - Enter feedback text in the provided text area.
+   - Verify that the feedback text is entered correctly.
+
+3. **Upload Photo/Video with High-Speed Internet:**
+   - Ensure the internet connection is high-speed.
+   - Click on the "Upload" button for photos or videos.
+   - Select a photo or video from the local device.
+   - Verify that the photo or video is uploaded quickly and displayed as a preview in the form.
+
+4. **Upload Photo/Video with Low-Speed Internet:**
+   - Simulate a low-speed internet connection.
+   - Click on the "Upload" button for photos or videos.
+   - Select a photo or video from the local device.
+   - Verify that the photo or video is uploaded, albeit more slowly, and displayed as a preview in the form.
+   - Verify that an upload progress indicator is displayed during the upload process.
+
+5. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that the feedback is submitted successfully with the uploaded photo or video under both high and low-speed conditions.
+
+**Expected Results:**
+- The upload functionality should work under both high and low-speed internet conditions.
+- An upload progress indicator should be displayed during slower uploads.
+- The feedback should be submitted successfully with the uploaded photo or video under both conditions.
+
+**Postconditions:**
+- The feedback with the uploaded photo or video is stored in the system.
+
+---
+
+Let me know if you need any further modifications or additional test
+Sure, here is a test case for the user story:
+
+**User Story:**  
+As a customer, I want to have the option to upload photos or videos along with my feedback to provide visual evidence of any issues.
+
+---
+
+### Test Case: Upload Photos or Videos with Feedback
+
+**Test Case ID:** TC001
+
+**Title:** Verify the ability to upload photos or videos along with feedback.
+
+**Description:** This test case verifies that a customer can upload photos or videos while submitting feedback.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback:**
+   - Enter feedback text in the provided text area.
+   - Verify that the feedback text is entered correctly.
+
+3. **Upload a Photo:**
+   - Click on the "Upload" button for photos.
+   - Select a photo from the local device.
+   - Verify that the photo is uploaded and displayed as a preview in the form.
+
+4. **Upload a Video:**
+   - Click on the "Upload" button for videos.
+   - Select a video from the local device.
+   - Verify that the video is uploaded and displayed as a preview in the form.
+
+5. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback with the uploaded media has been successfully submitted.
+
+6. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes the uploaded photo and video.
+
+**Expected Results:**
+- The feedback form should allow the customer to upload both photos and videos.
+- The uploaded media should be displayed as previews before submission.
+- Upon submission, the feedback along with the uploaded media should be confirmed and visible in the feedback history or confirmation page.
+
+**Postconditions:**
+- The feedback with the uploaded photo and video is stored in the system.
+
+**Notes:**
+- Ensure the uploaded media files are within the allowed size and format limits.
+- Test with different file sizes and formats to verify robustness.
+
+---
+
+Let me know if you need any adjustments or additional test cases!

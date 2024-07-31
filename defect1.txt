@@ -1,0 +1,187 @@
+Certainly! Here are two potential defects for each test case related to the user story of providing feedback on the packaging and shipping process:
+
+---
+
+### Test Case: Submit Feedback on Packaging and Shipping
+
+**Defect 1:**  
+**ID:** DEF015  
+**Title:** Feedback form does not include packaging and shipping option.  
+**Description:** The feedback form does not provide an option for the customer to select and provide feedback specifically about packaging and shipping.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Look for an option to provide feedback on packaging and shipping.  
+**Expected Result:** An option for packaging and shipping feedback should be available.  
+**Actual Result:** No such option is present in the feedback form.
+
+**Defect 2:**  
+**ID:** DEF016  
+**Title:** Feedback on packaging and shipping not stored in the system.  
+**Description:** Feedback specifically about packaging and shipping is not being saved in the system after submission.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback on packaging and shipping.
+3. Submit the feedback.
+4. Check the feedback history.  
+**Expected Result:** The feedback should be visible in the feedback history.  
+**Actual Result:** The feedback is missing from the feedback history.
+
+---
+
+### Test Case: Rate Packaging and Shipping Process
+
+**Defect 1:**  
+**ID:** DEF017  
+**Title:** Rating for packaging and shipping not functional.  
+**Description:** The rating feature for packaging and shipping in the feedback form is non-functional.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Attempt to rate the packaging and shipping process.  
+**Expected Result:** The rating should be functional and record the customer's input.  
+**Actual Result:** The rating feature does not respond to user input.
+
+**Defect 2:**  
+**ID:** DEF018  
+**Title:** Incorrect rating scale displayed.  
+**Description:** The rating scale for packaging and shipping feedback is incorrectly displayed, causing confusion for the user.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Observe the rating scale for packaging and shipping.  
+**Expected Result:** The rating scale should be correctly displayed (e.g., 1 to 5 stars).  
+**Actual Result:** The rating scale is incorrectly displayed (e.g., showing 1 to 10 stars).
+
+---
+
+### Test Case: Attach Photo of Packaging with Feedback
+
+**Defect 1:**  
+**ID:** DEF019  
+**Title:** Photo upload fails in packaging feedback.  
+**Description:** Attempting to upload a photo in the packaging and shipping feedback form results in a failure.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback on packaging and shipping.
+3. Attempt to upload a photo of the packaging.  
+**Expected Result:** The photo should upload successfully.  
+**Actual Result:** The photo upload fails with an error message.
+
+**Defect 2:**  
+**ID:** DEF020  
+**Title:** Uploaded photo not displayed in preview.  
+**Description:** After uploading a photo of the packaging, the preview of the photo is not displayed in the feedback form.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback on packaging and shipping.
+3. Upload a photo of the packaging.  
+**Expected Result:** The photo should be displayed as a preview in the form.  
+**Actual Result:** No preview of the uploaded photo is displayed.
+
+---
+
+### Test Case: Submit Detailed Shipping Feedback
+
+**Defect 1:**  
+**ID:** DEF021  
+**Title:** Detailed feedback text is truncated.  
+**Description:** Detailed feedback on the shipping process is truncated when submitted, losing important information.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter detailed feedback on the shipping process.
+3. Submit the feedback.
+4. Check the feedback history.  
+**Expected Result:** The full detailed feedback should be stored and displayed.  
+**Actual Result:** The feedback text is truncated in the feedback history.
+
+**Defect 2:**  
+**ID:** DEF022  
+**Title:** Feedback form does not accept special characters.  
+**Description:** The feedback form does not allow special characters in the detailed feedback on the shipping process.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter detailed feedback with special characters (e.g., #, &, @) in the shipping feedback.
+3. Submit the feedback.  
+**Expected Result:** The feedback form should accept special characters.  
+**Actual Result:** The form rejects feedback with special characters, displaying an error message.
+
+---
+
+### Test Case: Feedback on Packaging and Shipping for Multiple Orders
+
+**Defect 1:**  
+**ID:** DEF023  
+**Title:** Feedback linked to incorrect order.  
+**Description:** Feedback on packaging and shipping is linked to the wrong order in the system.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Select an order to provide feedback on packaging and shipping.
+3. Submit the feedback.
+4. Check the feedback history.  
+**Expected Result:** The feedback should be linked to the correct order.  
+**Actual Result:** The feedback is linked to a different order.
+
+**Defect 2:**  
+**ID:** DEF024  
+**Title:** Unable to select multiple orders for feedback.  
+**Description:** The feedback form does not allow customers to select multiple orders for providing feedback on packaging and shipping.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Attempt to select multiple orders for feedback on packaging and shipping.  
+**Expected Result:** Multiple orders should be selectable for feedback.  
+**Actual Result:** Only one order can be selected at a time.
+
+---
+
+### Test Case: Submit Anonymous Feedback on Packaging and Shipping
+
+**Defect 1:**  
+**ID:** DEF025  
+**Title:** Anonymous feedback option not available.  
+**Description:** The feedback form does not provide an option for customers to submit feedback anonymously.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Look for an option to submit feedback anonymously.  
+**Expected Result:** An option to submit feedback anonymously should be available.  
+**Actual Result:** No option for anonymous feedback is present.
+
+**Defect 2:**  
+**ID:** DEF026  
+**Title:** Anonymous feedback not marked as anonymous.  
+**Description:** Feedback submitted as anonymous is not marked as anonymous in the system, revealing the customer's identity.  
+**Steps to Reproduce:** 
+1. Navigate to the feedback form.
+2. Enter feedback and select the option to submit anonymously.
+3. Submit the feedback.
+4. Check the feedback history.  
+**Expected Result:** The feedback should be marked as anonymous.  
+**Actual Result:** The feedback is not marked as anonymous and displays the customer's identity.
+
+---
+
+### Test Case: Provide Feedback on Packaging and Shipping Using Mobile App
+
+**Defect 1:**  
+**ID:** DEF027  
+**Title:** Feedback form not accessible on mobile app.  
+**Description:** The feedback form for packaging and shipping is not accessible on the mobile app.  
+**Steps to Reproduce:** 
+1. Open the mobile app.
+2. Navigate to the feedback section.
+3. Attempt to access the feedback form for packaging and shipping.  
+**Expected Result:** The feedback form should be accessible on the mobile app.  
+**Actual Result:** The feedback form is not accessible.
+
+**Defect 2:**  
+**ID:** DEF028  
+**Title:** Mobile app crashes when submitting feedback.  
+**Description:** The mobile app crashes when the customer submits feedback on packaging and shipping.  
+**Steps to Reproduce:** 
+1. Open the mobile app.
+2. Navigate to the feedback section.
+3. Enter feedback on packaging and shipping.
+4. Click "Submit".  
+**Expected Result:** The feedback should be submitted successfully without crashing the app.  
+**Actual Result:** The mobile app crashes upon submission.
+
+---
+
+Let me know if you need further details or additional information!

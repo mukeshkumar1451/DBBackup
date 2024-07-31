@@ -1,0 +1,282 @@
+Sure! Here are test cases for the new user story:
+
+**User Story:**  
+As a customer, I want to be able to provide feedback on the packaging and shipping process to ensure that my order arrives in the best possible condition.
+
+---
+
+### Test Case: Submit Feedback on Packaging and Shipping
+
+**Test Case ID:** TC008
+
+**Title:** Verify the ability to submit feedback on packaging and shipping.
+
+**Description:** This test case verifies that a customer can submit feedback specifically about the packaging and shipping process.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback on Packaging and Shipping:**
+   - Select the option to provide feedback on packaging and shipping.
+   - Enter feedback text regarding the packaging and shipping process.
+   - Verify that the feedback text is entered correctly.
+
+3. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback has been successfully submitted.
+
+4. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes the comments on packaging and shipping.
+
+**Expected Results:**
+- The feedback form should allow the customer to provide feedback specifically about the packaging and shipping process.
+- The feedback should be submitted successfully and included in the feedback history.
+
+**Postconditions:**
+- The feedback on packaging and shipping is stored in the system.
+
+---
+
+### Test Case: Rate Packaging and Shipping Process
+
+**Test Case ID:** TC009
+
+**Title:** Verify the ability to rate the packaging and shipping process.
+
+**Description:** This test case verifies that a customer can provide a rating for the packaging and shipping process.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Rate Packaging and Shipping:**
+   - Select the option to rate the packaging and shipping process.
+   - Provide a rating (e.g., 1 to 5 stars).
+   - Verify that the rating is entered correctly.
+
+3. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback has been successfully submitted.
+
+4. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes the rating for packaging and shipping.
+
+**Expected Results:**
+- The feedback form should allow the customer to provide a rating for the packaging and shipping process.
+- The rating should be submitted successfully and included in the feedback history.
+
+**Postconditions:**
+- The rating for packaging and shipping is stored in the system.
+
+---
+
+### Test Case: Attach Photo of Packaging with Feedback
+
+**Test Case ID:** TC010
+
+**Title:** Verify the ability to attach a photo of the packaging with feedback.
+
+**Description:** This test case verifies that a customer can attach a photo of the packaging when providing feedback on the packaging and shipping process.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Feedback on Packaging:**
+   - Select the option to provide feedback on packaging and shipping.
+   - Enter feedback text regarding the packaging.
+
+3. **Upload Photo of Packaging:**
+   - Click on the "Upload" button for photos.
+   - Select a photo of the packaging from the local device.
+   - Verify that the photo is uploaded and displayed as a preview in the form.
+
+4. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback with the uploaded photo has been successfully submitted.
+
+5. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes the uploaded photo of the packaging.
+
+**Expected Results:**
+- The feedback form should allow the customer to upload a photo of the packaging.
+- The uploaded photo should be displayed as a preview before submission.
+- The feedback with the uploaded photo should be submitted successfully and included in the feedback history.
+
+**Postconditions:**
+- The feedback with the uploaded photo is stored in the system.
+
+---
+
+### Test Case: Submit Detailed Shipping Feedback
+
+**Test Case ID:** TC011
+
+**Title:** Verify the ability to submit detailed feedback on the shipping process.
+
+**Description:** This test case verifies that a customer can provide detailed feedback on various aspects of the shipping process.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Detailed Shipping Feedback:**
+   - Select the option to provide feedback on the shipping process.
+   - Enter detailed feedback text covering aspects such as delivery time, package condition upon arrival, and courier service.
+   - Verify that the feedback text is entered correctly.
+
+3. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback has been successfully submitted.
+
+4. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes the detailed comments on the shipping process.
+
+**Expected Results:**
+- The feedback form should allow the customer to provide detailed feedback on the shipping process.
+- The feedback should be submitted successfully and included in the feedback history.
+
+**Postconditions:**
+- The detailed feedback on the shipping process is stored in the system.
+
+---
+
+### Test Case: Feedback on Packaging and Shipping for Multiple Orders
+
+**Test Case ID:** TC012
+
+**Title:** Verify the ability to provide feedback on packaging and shipping for multiple orders.
+
+**Description:** This test case verifies that a customer can provide feedback on the packaging and shipping process for multiple orders.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+- The customer has multiple orders.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Select Order for Feedback:**
+   - Select one of the customer's orders.
+   - Verify that the selected order is correctly displayed.
+
+3. **Enter Feedback on Packaging and Shipping:**
+   - Select the option to provide feedback on packaging and shipping.
+   - Enter feedback text regarding the packaging and shipping process for the selected order.
+   - Verify that the feedback text is entered correctly.
+
+4. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the feedback has been successfully submitted.
+
+5. **Repeat for Another Order:**
+   - Select another order.
+   - Repeat steps 3-4 for the new order.
+
+6. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback includes comments for both orders.
+
+**Expected Results:**
+- The feedback form should allow the customer to provide feedback on packaging and shipping for multiple orders.
+- The feedback should be submitted successfully and included in the feedback history for each order.
+
+**Postconditions:**
+- The feedback on packaging and shipping for multiple orders is stored in the system.
+
+---
+
+### Test Case: Submit Anonymous Feedback on Packaging and Shipping
+
+**Test Case ID:** TC013
+
+**Title:** Verify the ability to submit anonymous feedback on packaging and shipping.
+
+**Description:** This test case verifies that a customer can submit feedback on packaging and shipping anonymously.
+
+**Preconditions:**
+- The customer is logged into the application.
+- The feedback form is accessible.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form:**
+   - Go to the feedback section of the application.
+   - Verify that the feedback form is displayed.
+
+2. **Enter Anonymous Feedback on Packaging and Shipping:**
+   - Select the option to provide feedback on packaging and shipping.
+   - Enter feedback text regarding the packaging and shipping process.
+   - Select the option to submit feedback anonymously.
+   - Verify that the feedback text is entered correctly.
+
+3. **Submit Feedback:**
+   - Click on the "Submit" button.
+   - Verify that a confirmation message is displayed indicating that the anonymous feedback has been successfully submitted.
+
+4. **Verify Submission:**
+   - Navigate to the feedback history or confirmation page.
+   - Verify that the submitted feedback is marked as anonymous and includes the comments on packaging and shipping.
+
+**Expected Results:**
+- The feedback form should allow the customer to submit feedback anonymously.
+- The anonymous feedback should be submitted successfully and included in the feedback history.
+
+**Postconditions:**
+- The anonymous feedback on packaging and shipping is stored in the system.
+
+---
+
+### Test Case: Provide Feedback on Packaging and Shipping Using Mobile App
+
+**Test Case ID:** TC014
+
+**Title:** Verify the ability to provide feedback on packaging and shipping using the mobile app.
+
+**Description:** This test case verifies that a customer can provide feedback on packaging and shipping using the mobile app.
+
+**Preconditions:**
+- The customer is logged into the mobile app.
+- The feedback form is accessible on the mobile app.
+
+**Test Steps:**
+
+1. **Navigate to Feedback Form on Mobile App:**
+   - Open the mobile app and navigate to the feedback section.
+   - Verify that the feedback form is displayed on the mobile app.
+
+2. **Enter Feedback on Packaging and Shipping:**
+   - Select
