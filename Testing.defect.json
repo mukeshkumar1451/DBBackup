@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "66c44e8e548853877efec703"
+  },
+  "defid": "EP-2028",
+  "projectid": "",
+  "actualRootcause": "",
+  "assignedTo": "",
+  "closedDate": "",
+  "customLabel1": "",
+  "description": "Incorrect rating scale displayed",
+  "detectedBY": "",
+  "detectedDate": "Wed Jul 31 17:04:31 IST 2024",
+  "linkedTestCases": "",
+  "linkedUserstories": "",
+  "module": "Order Fullfillment",
+  "priority": "Medium",
+  "release": "R_08",
+  "resolutionNotes": "",
+  "severity": "Medium",
+  "shortDescription": "",
+  "sprint": "",
+  "status": "Closed",
+  "jiraProjectKey": "EP",
+  "lastUpdated": "2024-08-01 19:08",
+  "domain": "e-commerce",
+  "_class": "com.cognizant.collector.jirazephyr.beans.rts.Defect"
+}]

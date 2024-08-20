@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "66c44ebb548853877efec714"
+  },
+  "testCaseID": "EP-T701",
+  "description": "Confirmation Message Display",
+  "module": "Inventory management",
+  "priority": "Normal",
+  "projectid": "504",
+  "createdOn": "Thu Jul 25 05:30:00 IST 2024",
+  "scriptName": "",
+  "linkedUserstories": "EP-509",
+  "testCaseType": "",
+  "release": "R_06",
+  "sprint": "",
+  "testCaseName": "",
+  "testStep": [
+    "<pre>1. Log in as a store manager.\n\n</pre>",
+    "2. Navigate to the inventory page.<br /><br />",
+    "3. Select a product to remove.<br /><br />",
+    "4. Click on the \"Remove\" button."
+  ],
+  "expectedResult": [
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>",
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>",
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>",
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>"
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "2024-07-31 11:20",
+  "businessCritical": true,
+  "domain": "e-commerce",
+  "_class": "com.cognizant.collector.jirazephyr.beans.rts.RTSTestCase"
+}]

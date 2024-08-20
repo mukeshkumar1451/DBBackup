@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "66baf1a6ecfc5b0c31a24067"
+  },
+  "userStoryID": "EP-470",
+  "description": "As a user, I want to be able to subscribe to the newsletter so that I can receive updates and news about the company and its products.",
+  "createdOn": {
+    "$date": "2024-07-25T09:11:59.151Z"
+  },
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_04",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Newsletter subscription",
+  "jiraProjectKey": "EP",
+  "lastUpdated": "2024-08-01 19:08",
+  "domain": "e-commerce",
+  "_class": "com.cognizant.collector.jirazephyr.beans.rts.Userstories"
+}]
