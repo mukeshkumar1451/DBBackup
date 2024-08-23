@@ -1,41 +1,11 @@
-package com.cognizant.collector.DatabaseCollector.Initializer;
+public static void main(String[] args) {
 
-import com.cognizant.collector.DatabaseCollector.service.DataTransferService;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.ApplicationContext;
-import org.springframework.stereotype.Component;
+    String inputDate = "2024-08-22 23:55";
+    DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+    LocalDateTime localDateTime = LocalDateTime.parse(inputDate, inputFormatter);
+    ZonedDateTime outputDateTime = ZonedDateTime.of(localDateTime, ZoneId.of("UTC"));
+    DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSSSS'Z'").withZone(ZoneId.of("UTC"));
+    String outputDate = outputFormatter.format(outputDateTime);
+    System.out.println(outputDate);
 
-@Component
-public class ApplicationInitializer implements CommandLineRunner {
-
-    private final DataTransferService dataTransferService;
-    private final ApplicationContext applicationContext;
-
-    public ApplicationInitializer(DataTransferService dataTransferService, ApplicationContext applicationContext) {
-        this.dataTransferService = dataTransferService;
-        this.applicationContext = applicationContext;
-    }
-
-    @Override
-    public void run(String... args) throws Exception {
-        System.out.println("Application started. Beginning data transfer...");
-
-        // Perform the data transfer
-        dataTransferService.transferAllCollections();
-
-        System.out.println("Data transfer completed.");
-
-        // Exit the application
-        exitApplication();
-    }
-
-    private void exitApplication() {
-        // Exit the application gracefully
-        ((org.springframework.context.ConfigurableApplicationContext) applicationContext).close();
-        System.exit(0);
-    }
 }
-
-
-
-
