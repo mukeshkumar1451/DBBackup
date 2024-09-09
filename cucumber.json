@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-09T07:40:14.703Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2131307701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.startSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Google Search",
+        "description": "",
+        "id": "google-search;google-search",
+        "after": [
+          {
+            "result": {
+              "duration": 128616101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1648204000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Launch Google",
+            "match": {
+              "location": "GoogleSearchStep.i_Launch_Google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566203299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Search Something",
+            "match": {
+              "location": "GoogleSearchStep.i_Search_Something()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/GoolgeSearch.feature",
+    "tags": []
+  }
+]
