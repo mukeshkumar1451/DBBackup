@@ -1,0 +1,24 @@
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection MetricConfig --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\MetricConfig.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection accounts --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\accounts.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection appTokenStore --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\appTokenStore.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection chartItems --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\chartItems.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection ciqDashboardDataSources --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashboardDataSources.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection ciqDashboardLOB --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashboardLOB.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection ciqDashboardProjects --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashboardProjects.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection ciqDashbordOrg --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashbordOrg.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection dashboardTemplates --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\dashboardTemplates.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection dashboards --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\dashboards.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection directChartData --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\directChartData.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection permissions --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\permissions.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection projectMapping --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\projectMapping.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection roles --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\roles.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection scheduler_runs --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\scheduler_runs.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection source_derived --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\source_derived.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection source_jira_issues --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\source_jira_issues.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection source_jira_issues_OCC --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\source_jira_issues_OCC.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection source_tools --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\source_tools.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection teams --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\teams.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection userLoginDetails --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\userLoginDetails.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection userSessions --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\userSessions.json
+mongoimport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection users --type json --file C:\Users\SBRMNMUTFST\Downloads\DB\users.json
+

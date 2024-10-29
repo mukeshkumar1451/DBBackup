@@ -1,0 +1,29 @@
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection MetricConfig --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\MetricConfig.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection accounts --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\accounts.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection appTokenStore --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\appTokenStore.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection chartItems --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\chartItems.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection ciqDashboardDataSources --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashboardDataSources.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection ciqDashboardLOB --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashboardLOB.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection ciqDashboardProjects --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashboardProjects.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection ciqDashbordOrg --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\ciqDashbordOrg.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection dashboardTemplates --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\dashboardTemplates.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection dashboards --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\dashboards.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection directChartData --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\directChartData.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection permissions --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\permissions.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection projectMapping --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\projectMapping.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection roles --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\roles.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection scheduler_runs --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\scheduler_runs.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection source_derived --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\source_derived.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection source_jira_issues --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\OCC\source_jira_issues.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection source_jira_issues_OCC --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\source_jira_issues_OCC.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection source_tools --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\source_tools.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection teams --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\teams.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection userLoginDetails --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\userLoginDetails.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection userSessions --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\userSessions.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection users --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\users.json
+
+mongoexport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection source_jira_issues --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\OCC\source_jira_issues.json
+mongoexport --host localhost --port 27017 --db ciqdashboard_OCC_2023 --collection source_jira_issues_demo --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\OCC\source_jira_issues_demo.json
+
+
+mongoexport --host localhost --port 27017 --db ciqdashboard_qa_2023 --collection source_zephyrscale_data --type json --out C:\Users\SBRMNMUTFST\Downloads\DB\source_zephyrscale_data.json
